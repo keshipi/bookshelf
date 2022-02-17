@@ -3,9 +3,13 @@ import React, { useState, useEffect } from 'react';
 import { BookList } from './components/BookList';
 import { Pagination } from './components/Pagination';
 
+type Result = {
+  total: number;
+  books: Book[];
+};
 export default function App() {
   const [search, setSearch] = useState('');
-  const [books, setBooks] = useState<Book[]>([]);
+  const [result, setResult] = useState<Result>({ total: 0, books: [] });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setSearch(e.target.value);
@@ -13,15 +17,20 @@ export default function App() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!search) return;
-    fetchData();
+    fetchData(0);
   };
 
-  const fetchData = async () => {
+  const fetchData = async (startIndex: number) => {
     await fetch(
-      `https://www.googleapis.com/books/v1/volumes?maxResults=40&q=${search}`
+      `https://www.googleapis.com/books/v1/volumes?q=${search}&maxResults=40&startIndex=${startIndex}`
     )
       .then((res) => res.json())
-      .then((res) => setBooks(mapBooksFromGoogle(res.items)));
+      .then((res) =>
+        setResult({
+          total: res.totalItems,
+          books: mapBooksFromGoogle(res.items),
+        })
+      );
   };
 
   const mapBooksFromGoogle = (res: any): Book[] => {
@@ -77,12 +86,19 @@ export default function App() {
         </div>
         <div className="flex items-center justify-center">
           <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-            <BookList items={books}></BookList>
+            <BookList items={result.books}></BookList>
           </div>
         </div>
-        <div className="flex items-center justify-center">
-          <Pagination itemsPerPage={3} handlePageClick={f => console.log(f)}></Pagination>
-        </div>
+        {result.total ? (
+          <div className="flex items-center justify-center">
+            <Pagination
+              total={result.total}
+              handlePageClick={(selectedPage: number) => fetchData(selectedPage)}
+            ></Pagination>
+          </div>
+        ) : (
+          ''
+        )}
       </div>
     </div>
   );
