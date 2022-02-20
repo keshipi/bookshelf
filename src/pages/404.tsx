@@ -1,8 +1,8 @@
 import Redct from 'react';
 
-export function Whoops404() {
+export const Whoops404 = () => {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div className="py-6 sm:py-8 lg:py-12">
       <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
         <div className="flex flex-col items-center">
           <p className="text-indigo-500 text-sm md:text-base font-semibold uppercase mb-4">

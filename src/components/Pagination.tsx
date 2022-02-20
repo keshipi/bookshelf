@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ReactPaginate from 'react-paginate';
 
 type Props = {
   total: number
-  handlePageClick: Function
+  onPageClick: Function
 }
 
 export const Pagination = (props: Props) => {
   const pagePerItems = 40
-  const handleOnPageChange = (selectedItem: { selected: number }) => props.handlePageClick(selectedItem.selected * pagePerItems)
+  const handlePageChange = (selectedItem: { selected: number }) => props.onPageClick(selectedItem.selected * pagePerItems)
 
   return (
     <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -16,7 +16,7 @@ export const Pagination = (props: Props) => {
         breakLabel="..."
         nextLabel="next >"
         previousLabel="< previous"
-        onPageChange={handleOnPageChange}
+        onPageChange={handlePageChange}
         pageRangeDisplayed={2}
         pageCount={(Math.ceil(props.total/pagePerItems))}
         className="inline-flex -space-x-px"
