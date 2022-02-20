@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import { BookList } from './../components/BookList';
 import { Pagination } from './../components/Pagination';
@@ -10,8 +11,25 @@ type Result = {
 };
 
 export const Books = () => {
-  const [search, setSearch] = useState('');
+  const query= new URLSearchParams(useLocation().search);
+  const [search, setSearch] = useState(query.get('q') ?? '');
+  const [index, setIndex] = useState(0);
   const [result, setResult] = useState<Result>({ total: 0, books: [] });
+  
+  useEffect(() => {
+    if (!search) return;
+
+    fetch(
+      `https://www.googleapis.com/books/v1/volumes?q=${search}&maxResults=40&startIndex=${index}`
+    )
+      .then((res) => res.json())
+      .then((res) =>
+        setResult({
+          total: res.totalItems,
+          books: mapBooksFromGoogle(res.items),
+        })
+      );
+  }, [search, index]);
 
   const handleSearch = (search: string) => {
     setSearch(search);
@@ -70,4 +88,4 @@ export const Books = () => {
       )}
     </>
   );
-}
+};
