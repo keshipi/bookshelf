@@ -4,7 +4,7 @@ import ReactPaginate from 'react-paginate';
 type Props = {
   total: number;
   pagePerItems: number;
-  initialPage: number;
+  forcePage: number;
   onPageClick: Function;
 };
 
@@ -18,7 +18,7 @@ export const Pagination = (props: Props) => {
         breakLabel="..."
         nextLabel="next >"
         previousLabel="< previous"
-        initialPage={props.initialPage}
+        forcePage={props.forcePage}
         onPageChange={handlePageChange}
         pageRangeDisplayed={2}
         pageCount={Math.ceil(props.total / props.pagePerItems)}

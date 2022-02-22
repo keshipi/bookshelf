@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
+import { createSearchParams, useSearchParams } from 'react-router-dom';
 
 import { BookList } from './../components/BookList';
 import { Pagination } from './../components/Pagination';
@@ -10,31 +10,41 @@ type Result = {
   books: Book[];
 };
 
+type SearchParam = {
+  query: string;
+  page: string;
+};
+
 export const Books = () => {
   const pagePerItems = 40;
   const [result, setResult] = useState<Result>({ total: 0, books: [] });
   const [searchParams, setSearchParams] = useSearchParams();
-  const [query, setQuery] = useState(searchParams.get('q') || '');
-  const [page, setPage] = useState(Number(searchParams.get('p')) ?? 0);
+  const [searchParam, setSearchParam] = useState<SearchParam>({
+    query: searchParams.get('query') || '',
+    page: searchParams.get('page') || '0',
+  });
 
   const handleSearch = (query: string) => {
     if (!query) return;
-    setSearchParams(new URLSearchParams({ q: query, p: '0' }));
-    setQuery(query);
+    const newSearchParam = {query, page: '0'};
+    const params = createSearchParams(newSearchParam).toString()
+    setSearchParams(new URLSearchParams(params));
+    setSearchParam(newSearchParam)
   };
 
   const handlePageClick = (selectedPage: number) => {
-    const q = searchParams.get('q') as string;
-    const p = selectedPage.toString();
-    setSearchParams(new URLSearchParams({ q, p }));
-    setPage(selectedPage);
+    const page = selectedPage.toString();
+    const newSearchParam = {...searchParam, ...{page}};
+    const params = createSearchParams(newSearchParam).toString()
+    setSearchParams(new URLSearchParams(params));
+    setSearchParam(newSearchParam)
   };
 
   useEffect(() => {
-    if (!query) return;
+    if (!searchParam.query) return;
     fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=40&startIndex=${
-        page * pagePerItems
+      `https://www.googleapis.com/books/v1/volumes?q=${searchParam.query}&maxResults=40&startIndex=${
+        Number(searchParam.page) * pagePerItems
       }`
     )
       .then((res) => res.json())
@@ -44,7 +54,7 @@ export const Books = () => {
           books: mapBooksFromGoogle(res.items),
         })
       );
-  }, [query, page]);
+  }, [searchParam]);
 
   const mapBooksFromGoogle = (res: any): Book[] => {
     return res.map((item: any, i: Number) => {
@@ -62,7 +72,7 @@ export const Books = () => {
     <>
       <div className="py-6 sm:py-8 lg:py-12">
         <div className="flex items-center max-w-md mx-auto bg-white rounded-lg">
-          <SearchBox text={query} onSearch={handleSearch}></SearchBox>
+          <SearchBox text={searchParam.query} onSearch={handleSearch}></SearchBox>
         </div>
       </div>
       <div className="flex items-center justify-center">
@@ -74,7 +84,7 @@ export const Books = () => {
         <div className="flex items-center justify-center">
           <Pagination
             total={result.total}
-            initialPage={page}
+            forcePage={Number(searchParam.page)}
             pagePerItems={pagePerItems}
             onPageClick={handlePageClick}
           ></Pagination>
