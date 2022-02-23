@@ -4,28 +4,33 @@ import { useParams } from 'react-router';
 export const BookDetail = () => {
   const { id } = useParams();
   const [book, setBook] = useState<BookDetail>();
+  const [isSearching, setIsSearching] = useState(true);
 
   useEffect(() => {
     fetch(`https://www.googleapis.com/books/v1/volumes/${id}`)
       .then((res) => res.json())
       .then((res) => {
-        console.log(res);
         setBook({
           id: res.id,
           name: res.volumeInfo.title,
-          authors: res.volumeInfo.authors,
+          authors: res.volumeInfo.authors || [],
           image: res.volumeInfo.imageLinks.thumbnail,
           description: res.volumeInfo.description,
         });
       })
       .catch((error) => {
         console.log(error);
+      })
+      .finally(() => {
+        setIsSearching(false);
       });
   }, []);
 
   return (
     <>
-      {book ? (
+      {isSearching ? (
+        <div className="py-6 sm:py-8 lg:py-12">loading</div>
+      ) : book ? (
         <div className="py-6 sm:py-8 lg:py-12">
           <div className="max-w-screen-lg px-4 md:px-8 mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
@@ -63,4 +68,4 @@ export const BookDetail = () => {
       )}
     </>
   );
-}
+};
