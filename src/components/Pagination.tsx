@@ -1,32 +1,37 @@
 import React from 'react';
-import ReactPaginate from 'react-paginate';
+import { HStack, Button } from '@chakra-ui/react';
 
 type Props = {
-  total: number;
-  pagePerItems: number;
-  forcePage: number;
-  onPageClick: Function;
+  totalCount: number;
+  pageSize: number;
+  onClick: (index: number) => void;
+  currentPage: number;
 };
 
-export const Pagination = (props: Props) => {
-  const handlePageChange = (selectedItem: { selected: number }) =>
-    props.onPageClick(selectedItem.selected);
+const range = (start: number, end: number) =>
+  [...Array(end - start + 1)].map((_, i) => start + i);
 
+export const Pagination = (props: Props) => {
   return (
-    <ReactPaginate
-      breakLabel="..."
-      nextLabel=">"
-      previousLabel="<"
-      forcePage={props.forcePage}
-      onPageChange={handlePageChange}
-      pageRangeDisplayed={2}
-      pageCount={Math.ceil(props.total / props.pagePerItems)}
-      className="inline-flex -space-x-px"
-      previousLinkClassName="py-2 px-3 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-      nextLinkClassName="py-2 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-      breakLinkClassName="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-      pageLinkClassName="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-      activeLinkClassName="py-2 px-3 text-blue-600 bg-blue-50 border border-gray-300 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
-    />
+    <HStack w="full" justifyContent="center" align="center" py={5}>
+      {range(1, Math.ceil(props.totalCount / props.pageSize)).map(
+        (number, index) => (
+          <Button
+            as="a"
+            key={index}
+            onClick={() => props.onClick(number)}
+            bg={props.currentPage === number ? 'blue.500' : 'blue.100'}
+            color={props.currentPage === number ? 'white' : 'blue.600'}
+            _hover={{
+              bg: 'blue.300',
+              color: 'white',
+            }}
+            borderRadius="full"
+          >
+            {number}
+          </Button>
+        )
+      )}
+    </HStack>
   );
 };

@@ -23,13 +23,13 @@ export const Books = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [searchParam, setSearchParam] = useState<SearchParam>({
     query: searchParams.get('query') || '',
-    page: searchParams.get('page') || '0',
+    page: searchParams.get('page') || '1',
   });
   const [isSearching, setIsSearching] = useState(false);
 
   const handleSearch = (query: string) => {
     if (!query) return;
-    const newSearchParam = { query, page: '0' };
+    const newSearchParam = { query, page: '1' };
     const params = createSearchParams(newSearchParam).toString();
     setSearchParams(new URLSearchParams(params));
     setSearchParam(newSearchParam);
@@ -49,7 +49,7 @@ export const Books = () => {
     fetch(
       `https://www.googleapis.com/books/v1/volumes?q=${
         searchParam.query
-      }&maxResults=40&startIndex=${Number(searchParam.page) * pagePerItems}`
+      }&maxResults=40&startIndex=${(Number(searchParam.page) - 1) * pagePerItems}`
     )
       .then((res) => res.json())
       .then((res) =>
@@ -91,10 +91,10 @@ export const Books = () => {
         <Box w="100%" p={4}>
           <Center>
             <Pagination
-              total={result.total}
-              forcePage={Number(searchParam.page)}
-              pagePerItems={pagePerItems}
-              onPageClick={handlePageClick}
+              totalCount={result.total}
+              pageSize={pagePerItems}
+              onClick={handlePageClick}
+              currentPage={Number(searchParam.page)}
             ></Pagination>
           </Center>
         </Box>
