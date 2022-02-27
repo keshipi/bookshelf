@@ -1,3144 +1,1165 @@
 {
-  "kind": "books#volumes",
-  "totalItems": 504,
-  "items": [
+  "books": [
     {
-      "kind": "books#volume",
-      "id": "SuFLDwAAQBAJ",
-      "etag": "JUtSVBgzMZQ",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/SuFLDwAAQBAJ",
-      "volumeInfo": {
-        "title": "React入門 React・Reduxの導入からサーバサイドレンダリングによるUXの向上まで",
-        "authors": ["穴井宏幸", "柴田和祈", "石井直矢", "三宮肇"],
-        "publisher": "翔泳社",
-        "publishedDate": "2018-02-19",
-        "description": "Webアプリケーションを高速で動作させる！ Reactの概念からデプロイまでモダンWebアプリケーション開発の全体像がわかる！ 本書はWebアプリケーション開発で、 人気を博しているReactについて解説した書籍です。 ReactはFacebookがリリースしたJavaScriptのライブラリで、 Webアプリケーションをネイティブアプリケーションのように、 動作させるために開発されました。 本書は、以下のような構成となっています。 第1章：Reactを扱うために重要な概念となるRedux・Fluxの解説をします。 第2章：create-react-appを使ったインストール方法を解説しReactを導入します。 第3章：Reactで使用するJSXの文法を紹介します。 第4章：Reactの基本となるコンポーネント指向について解説します。 第5章：アプリケーションの状態を管理します。 第6章：画面遷移についてrouterを学びます。 第7章：middlewareを実装していきます。 第8章：SPAでは必須の非同期処理について解説します。 第9章：UIについて学び、アニメーションを実装していきます。 第10章：より実践的なアプリケーションを作成し、開発の流れを学びます。 第11章：Webアプリケーション開発に必須のテストについて解説します。 第12章：開発したアプリケーションを公開できるようにデブロイについて学びます。 第13章：よりよいアプリケーションにするためにサーバサイドレンダリングについて解説します。 インストールの解説から、 チュートリアルを通したコードの説明など、 Reactを用いた開発がはじめての方でも 安心して入門することができます。 また情報が少ないテストやデプロイ、 またUI/UXの適切な設定など実際の開発の現場で、 役立つ事柄についても詳しく説明しています。 これから迅速なWebアプリケーションを作成する必要がある方や、 最新のフロントエンドの事情をくわしく知りたい方におすすめの一冊です。 【本書の特長】 ●Reactの基本から応用まで実践的に学べる ●Reactを扱うための概念や手法を学べる ●UI/UX・テスト・デプロイなど本格的にReactを学べる",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9784798153353"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "4798153354"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 312,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.28.0.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=SuFLDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=SuFLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=SuFLDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=SuFLDwAAQBAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/React%E5%85%A5%E9%96%80_React_Redux%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%8B%E3%82%89.html?hl=&id=SuFLDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=SuFLDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Webアプリケーションを高速で動作させる！ Reactの概念からデプロイまでモダンWebアプリケーション開発の全体像がわかる！ 本書はWebアプリケーション開発で、 ..."
-      }
+      "isbn_10": "4797320656",
+      "isbn_13": "9784797320657",
+      "title": "qmailで作るメールサーバ徹底攻略 (DJB Tools)",
+      "author": "与儀 丈二",
+      "publisher": "ソフトバンククリエイティブ",
+      "published_year": "",
+      "number_of_page": "297"
     },
     {
-      "kind": "books#volume",
-      "id": "ejonEAAAQBAJ",
-      "etag": "2F0VdL+94B4",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/ejonEAAAQBAJ",
-      "volumeInfo": {
-        "title": "React.js&Next.js超入門第2版",
-        "authors": ["掌田津耶乃"],
-        "publisher": "秀和システム",
-        "publishedDate": "2021-02",
-        "description": "React.jsからはじめてNext.jsまで一気におぼえる。巻末おまけ・JavaScriptのオブジェクト超入門を収録。",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9784798063980"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "4798063983"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 458,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.0.0.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=ejonEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=ejonEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=ejonEAAAQBAJ&printsec=frontcover&dq=react&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=ejonEAAAQBAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/React_js_Next_js%E8%B6%85%E5%85%A5%E9%96%80%E7%AC%AC2%E7%89%88.html?hl=&id=ejonEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=ejonEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "React.jsからはじめてNext.jsまで一気におぼえる。巻末おまけ・JavaScriptのオブジェクト超入門を収録。"
-      }
+      "isbn_10": "4839961263",
+      "isbn_13": "9784839961268",
+      "title": "ビッグデータ分析・活用のためのSQLレシピ",
+      "author": "加嵜 長門",
+      "publisher": "マイナビ出版",
+      "published_year": "2017",
+      "number_of_page": "496"
     },
     {
-      "kind": "books#volume",
-      "id": "mK9CEAAAQBAJ",
-      "etag": "vydHrwp205w",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/mK9CEAAAQBAJ",
-      "volumeInfo": {
-        "title": "モダンJavaScriptの基本から始める　React実践の教科書",
-        "subtitle": "（最新ReactHooks対応）",
-        "authors": ["じゃけぇ（岡田拓巳）"],
-        "publisher": "SBクリエイティブ",
-        "publishedDate": "2021-09-16",
-        "description": "絶対に挫折しない最高の1冊！ ※この電子書籍は固定レイアウト型で配信されております。固定レイアウト型は文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 Reactをイチから学びたい方にオススメの1冊です！ 【本書のポイント】 UdemyのReactコースで最高評価獲得の著者がモダンJavaScriptの基礎からTypeScriptの実践的な内容までしっかり解説！ 著者が2年以上勉強会を主催し初学者と話す中で分かった、多くの人が感じるReactの挫折ポイントを解決する構成！ 現場のシチュエーションベースのストーリーで技術解説をしているので、実務で必要となる知識を意識しながら学習を進められる！ 「#挫折しないReact本」で学習した感想をシェア！！",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9784815610722"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "481561072X"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 272,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=mK9CEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=mK9CEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=mK9CEAAAQBAJ&printsec=frontcover&dq=react&hl=&cd=3&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=mK9CEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mK9CEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 2860,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2574,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=mK9CEAAAQBAJ&rdid=book-mK9CEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 2860000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2574000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%83%A2%E3%83%80%E3%83%B3JavaScript%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81-sample-epub.acsm?id=mK9CEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%83%A2%E3%83%80%E3%83%B3JavaScript%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81-sample-pdf.acsm?id=mK9CEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=mK9CEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "絶対に挫折しない最高の1冊！ ※この電子書籍は固定レイアウト型で配信されております。固定レイアウト型は文字だけを拡大することや、文字列のハイライト、検索、辞書の参 ..."
-      }
+      "isbn_10": "4798155373",
+      "isbn_13": "9784798155371",
+      "title": "コンテナ・ベース・オーケストレーション Docker/Kubernetesで作るクラウド時代のシステム基盤",
+      "author": "橋本 直哉",
+      "publisher": "翔泳社",
+      "published_year": "2018",
+      "number_of_page": "392"
     },
     {
-      "kind": "books#volume",
-      "id": "vn6LzgEACAAJ",
-      "etag": "98qg71JkRUQ",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/vn6LzgEACAAJ",
-      "volumeInfo": {
-        "title": "基礎から学ぶReact/React Hooks実践入門",
-        "subtitle": "つまずきポイントを確認しながらすすめる!",
-        "authors": ["asakohattori"],
-        "publishedDate": "2021-08",
-        "description": "React/React Hooksの基礎が学べる!",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "486354359X"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9784863543591"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 200,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=vn6LzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=vn6LzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=vn6LzgEACAAJ&dq=react&hl=&cd=4&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=vn6LzgEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6React_React_Hooks%E5%AE%9F.html?hl=&id=vn6LzgEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=vn6LzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "React/React Hooksの基礎が学べる!"
-      }
+      "isbn_10": "4048707876",
+      "isbn_13": "9784048707879",
+      "title": "継続的デリバリー 信頼できるソフトウェアリリースのためのビルド・テスト・デプロイメントの自動化",
+      "author": "David Farley",
+      "publisher": "KADOKAWA/アスキー・メディアワークス",
+      "published_year": "2012",
+      "number_of_page": "544"
     },
     {
-      "kind": "books#volume",
-      "id": "ZEyLzgEACAAJ",
-      "etag": "cAbM3tqsFX0",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZEyLzgEACAAJ",
-      "volumeInfo": {
-        "title": "Reactハンズオンラーニング",
-        "subtitle": "Webアプリケーション開発のベストプラクティス",
-        "authors": ["Alex・Banks", "Eve・Porcello"],
-        "publishedDate": "2021-08",
-        "description": "JavaScriptライブラリ「React」の解説書。動くコンポーネントを作りつつ記法解説とツールやライブラリの紹介をする。",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "4873119383"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9784873119380"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 320,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=ZEyLzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=ZEyLzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=ZEyLzgEACAAJ&dq=react&hl=&cd=5&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=ZEyLzgEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/React%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0.html?hl=&id=ZEyLzgEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=ZEyLzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "JavaScriptライブラリ「React」の解説書。動くコンポーネントを作りつつ記法解説とツールやライブラリの紹介をする。"
-      }
+      "isbn_10": "4873111250",
+      "isbn_13": "9784873111254",
+      "title": "DNS & BINDクックブック―ネームサーバ管理者のためのレシピ集",
+      "author": "クリクット リュウ",
+      "publisher": "オライリージャパン",
+      "published_year": "",
+      "number_of_page": "235"
     },
     {
-      "kind": "books#volume",
-      "id": "r2AdEAAAQBAJ",
-      "etag": "6vZ7W8C4zow",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/r2AdEAAAQBAJ",
-      "volumeInfo": {
-        "title": "基礎から学ぶReact Native入門",
-        "authors": ["WINGSプロジェクト 中川 幸哉"],
-        "publisher": "翔泳社",
-        "publishedDate": "2021-02-25",
-        "description": "アプリを作りながらReact Nativeを学ぼう!基本の仕組みから実践までを徹底解説! ReactとJavaScriptによるWebアプリケーション開発に近いお作法で、 AndroidやiOSのアプリ開発ができるツール「React Native」。 本書では、このReact Nativeの基本的な仕組みや使い方を解説し、 React Nativeを使ったアプリケーション開発を通して、より理解を深めることができます。 「一度の実装で複数のプラットフォームにアプリを提供したい」といったエンジニアはもちろん、 Webサービスに携わる開発者におすすめの1冊です! 【対象読者】 ・JavaScriptとWeb開発の基礎に理解がある方 ・Reactを用いたJavaScriptアプリケーション開発の経験者 ・Androidアプリ開発の経験者 ・iOSアプリ開発の経験者 ※本電子書籍は同名オンデマンド出版物を底本として作成しました。記載内容は印刷出版当時のものです。 ※印刷出版再現のため電子書籍としては不要な情報を含んでいる場合があります。 ※印刷出版とは異なる表記・表現の場合があります。予めご了承ください。 ※プレビューにてお手持ちの電子端末での表示状態をご確認の上、商品をお買い求めください。 (翔泳社) ※本電子書籍は同名オンデマンド出版物を底本として作成しました。記載内容は印刷出版当時のものです。 ※印刷出版再現のため電子書籍としては不要な情報を含んでいる場合があります。 ※印刷出版とは異なる表記・表現の場合があります。予めご了承ください。 ※プレビューにてお手持ちの電子端末での表示状態をご確認の上、商品をお買い求めください。 (翔泳社)",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9784798169552"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "4798169552"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 172,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.43.40.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=r2AdEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=r2AdEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=r2AdEAAAQBAJ&pg=PT25&dq=react&hl=&cd=6&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=r2AdEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=r2AdEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 1760,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 1584,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=r2AdEAAAQBAJ&rdid=book-r2AdEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 1760000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 1584000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6React_Native%E5%85%A5%E9%96%80-sample-epub.acsm?id=r2AdEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6React_Native%E5%85%A5%E9%96%80-sample-pdf.acsm?id=r2AdEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=r2AdEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "expo-camera 写真の撮影やバーコードのスキャンを行う \u003cb\u003ereact\u003c/b\u003e-native-maps GoogleマップやiOSマップを表示・操作する \u003cb\u003ereact\u003c/b\u003e-native-svg SVGと互換性のあるAPIでベクターイメージを描画する expo-camera*2はブラウザでは実現が難しいカメラ機能を活用する&nbsp;..."
-      }
+      "isbn_10": "4873118735",
+      "isbn_13": "9784873118734",
+      "title": "Node.jsデザインパターン 第2版",
+      "author": "Mario Casciaro",
+      "publisher": "オライリージャパン",
+      "published_year": "2019",
+      "number_of_page": "464"
     },
     {
-      "kind": "books#volume",
-      "id": "dfQ8DwAAQBAJ",
-      "etag": "rYy1M5SrEck",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/dfQ8DwAAQBAJ",
-      "volumeInfo": {
-        "title": "作りながら学ぶReact入門",
-        "authors": ["吉田裕美"],
-        "publisher": "秀和システム",
-        "publishedDate": "2017-09",
-        "description": "Facebook開発の最新JSライブラリーを、シンプルなアプリケーションを、作りながら学べます!ていねいな開発環境構築ではじめての人も安心。WindowsとMacに対応。",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9784798050751"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "479805075X"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 219,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=dfQ8DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=dfQ8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=dfQ8DwAAQBAJ&pg=PA209&dq=react&hl=&cd=7&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=dfQ8DwAAQBAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6React%E5%85%A5%E9%96%80.html?hl=&id=dfQ8DwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=dfQ8DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "\u003cb\u003eReact\u003c/b\u003e Native 9 9 \u003cb\u003eReact\u003c/b\u003e Nativeは\u003cb\u003eReact\u003c/b\u003eと似たJavaScriptでiOS/Android向けのアプリを作れるツールです。この言葉を聞くと、\u003cb\u003eReact\u003c/b\u003eで作ったスマホ向けWebアプリをスマホの WebView(ウェブブラウザー)で表示するアプリと思うかも知れません。"
-      }
+      "isbn_10": "4873112567",
+      "isbn_13": "9784873112565",
+      "title": "Apacheセキュリティ",
+      "author": "Ivan Ristic",
+      "publisher": "オライリージャパン",
+      "published_year": "2005",
+      "number_of_page": "421"
     },
     {
-      "kind": "books#volume",
-      "id": "wZElEAAAQBAJ",
-      "etag": "WwS46sV+Lvs",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/wZElEAAAQBAJ",
-      "volumeInfo": {
-        "title": "React & Gatsby開発入門",
-        "authors": ["竹本 雄貴"],
-        "publisher": "インプレスR&D",
-        "publishedDate": "2021-04-02",
-        "description": "近年、静的サイトジェネレーターGatsbyをはじめNext.jsでのウェブサイト構築が増えています。しかし、その土台となるJavaScript用ライブラリのReactは本来アプリケーション開発を想定しており、現状の入門本もアプリケーションを作るための学習を目的としたものになっています。本書では、Gatsbyでサイトを作ることをゴールとし、その過程でReactの学習を行います。本来Reactの入門本では必須と思われるhooksやcontext、fluxに関してもほとんどスキップし、コンポーネントの書き方やCSS Modulesといったマークアップに近い内容を重点的に紹介します。今後、更に増えてくるであろうReactのマークアップやGatsby、Next.jsでのウェブサイト制作への入門を考えている方に向けた一冊です。2021年3月2日リリースのGatsby v3にも最速で対応しています！ 【目次】 第1章 React開発入門 第2章 Gatsby入門 第3章 Headless CMSを用いたウェブサイト制作 第4章 ステップアップ",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9784844379546"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "4844379542"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "printType": "BOOK",
-        "categories": ["Technology & Engineering"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=wZElEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=wZElEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=wZElEAAAQBAJ&pg=PT7&dq=react&hl=&cd=8&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=wZElEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wZElEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 1760,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 1584,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=wZElEAAAQBAJ&rdid=book-wZElEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 1760000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 1584000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React_Gatsby%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-sample-epub.acsm?id=wZElEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React_Gatsby%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-sample-pdf.acsm?id=wZElEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=wZElEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "第1章 \u003cb\u003eReact\u003c/b\u003e開発入門本書で取り扱うGatsby(ギャツビーまたはギャッツビー)は、\u003cb\u003eReact\u003c/b\u003e(リアクト)をベースにしたサイト生成フレームワークです。したがって、ある程度\u003cb\u003eReact\u003c/b\u003eについて知っておく必要があります。「\u003cb\u003eReact\u003c/b\u003eは難しい」「SPAをやったことはない」&nbsp;..."
-      }
+      "isbn_10": "4873113814",
+      "isbn_13": "9784873113814",
+      "title": "Apacheクックブック 第2版 ―Webサーバ管理者のためのレシピ集",
+      "author": "Ken Coar",
+      "publisher": "オライリージャパン",
+      "published_year": "2008",
+      "number_of_page": "308"
     },
     {
-      "kind": "books#volume",
-      "id": "oYMSEAAAQBAJ",
-      "etag": "JS11Y1Zo9Lg",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/oYMSEAAAQBAJ",
-      "volumeInfo": {
-        "title": "Clean Architecture for React",
-        "authors": ["今森 大地"],
-        "publisher": "インプレスR&D",
-        "publishedDate": "2021-01-15",
-        "description": "本書は、Clean Architectureの観点から、ReactやReduxで構築されたアプリケーションの設計をとらえなおし、新たな設計の提案も行う解説書です。これまでClean Architectureがあまり取り入れられてこなかったWebフロントエンド領域に対してこの手法を適用することを目指します。 【目次】 第1章 Clean Architecture 第2章 Dependency Injection 第3章 Single Page Application 第4章 Scalable React",
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "printType": "BOOK",
-        "categories": ["Technology & Engineering"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=oYMSEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=oYMSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=oYMSEAAAQBAJ&pg=PT38&dq=react&hl=&cd=9&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=oYMSEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=oYMSEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 1760,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 1584,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=oYMSEAAAQBAJ&rdid=book-oYMSEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 1760000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 1584000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Clean_Architecture_for_React-sample-epub.acsm?id=oYMSEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Clean_Architecture_for_React-sample-pdf.acsm?id=oYMSEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=oYMSEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "リスト4.7: components.tsx import \u003cb\u003eReact\u003c/b\u003e from &#39;\u003cb\u003ereact\u003c/b\u003e&#39;; import { StyledComponent } from &#39;styled-components&#39;; export interface Styles { Text: StyledComponent&lt;&#39;div&#39;, any&gt;; } export const injectStyle = (styles: Styles) =&gt; { const { Text }&nbsp;..."
-      }
+      "isbn_10": "4873113067",
+      "isbn_13": "9784873113067",
+      "title": "Linuxサーバ Hacks 2 ―コネクティング、モニタリング、トラブルシューティング",
+      "author": "Bill von Hagen",
+      "publisher": "オライリー・ジャパン",
+      "published_year": "2006",
+      "number_of_page": "544"
     },
     {
-      "kind": "books#volume",
-      "id": "r4W3DwAAQBAJ",
-      "etag": "Jgas20kra04",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/r4W3DwAAQBAJ",
-      "volumeInfo": {
-        "title": "React Native＋Expoではじめるスマホアプリ開発",
-        "authors": ["松澤太郎"],
-        "publisher": "マイナビ出版",
-        "publishedDate": "2018-08-29",
-        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 JavaScriptによるネイティブアプリ開発の現場のノウハウ、教えます！ 「React Native」は、Facebookが開発しているスマートフォンアプリ向けの開発環境で、2015年3月にオープンソースとして公開されました。ほとんどのコードをJavaScriptで記述でき、スマートフォンのAndroidとiOSに両対応したネイティブアプリの開発が可能です。名前からもわかるように、同じくFacebookが開発したUI用のライブラリであるReactをベースの技術としており、コンポーネントを組み合わせてUIを構築できます。Facebookは、自社や傘下のInstagramのスマートフォンアプリ開発にReact Nativeを利用しています。 Reactをベースにし、JavaScriptで開発を行えるため、Web系の開発者がスマートフォンのネイティブアプリ開発を始めるには、React Nativeは最適なプラットフォームといえるでしょう。 また、「Expo」は、React Nativeによる開発・アプリ配布を支援するためのツールとサービスです。本書では、開発環境としてExpoを使って解説しています。 本書では、ある程度、Web開発の知識があり、これからスマートフォンのネイティブアプリ開発に取り組もうという人に向けて書かれています。 【各章の内容】 ●第1章 React Nativeの概要、および、その開発支援ツールである「Expo」と「Create React Native App（CRNA）」について説明しています。 ●第2章 React Nativeに必要となるnode.js、そしてExpoの導入について説明しています。 ●第3章 Androidエミュレータ／iOSシミュレータの導入と、デバッグ環境などの具体的な利用方法を解説します。また、実機での動作確認方法にも触れています。 ●第4章 TODOアプリの開発を通してReact Nativeの基本を学んでいきます。 ●第5章 Flexboxレイアウトを学ぶために、逆ボーランド電卓を作成します。 ●第6章 統一的なUIを持ったアプリの作成を可能にする「UIライブラリ」を使ってTODOアプリを拡張します。 ●第7章 Fluxアーキテクチャを使って、TODOアプリを書き直してみます。 ●第8章 トイレマップとGPSロガーの2つのアプリを通して、ライブラリの利用、GPSやカメラといったスマートフォン機能の使い方など、本格的で実践的なReact Nativeプログラミングについて学びます。 ●第9章 アプリ内でWebページを表示するための「WebView」を使ったプログラミングを解説しています。 ●第10章 React Native CLIを使ったネイティブモジュールを使った開発について解説しています。 ●第11章 Google Play／App Storeでの配信について説明しています。 ●第12章 意外とハマるポイントでもあるReact Native／Expoのバージョンアップについて解説しています。 ●付録 tvOS／Windowsに対応したアプリの対応方法を解説しています。",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "PKEY:BT000054848500100101900209"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 384,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=r4W3DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=r4W3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=r4W3DwAAQBAJ&pg=PA3&dq=react&hl=&cd=10&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=r4W3DwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=r4W3DwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 4268,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 3841,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=r4W3DwAAQBAJ&rdid=book-r4W3DwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 4268000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 3841000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React_Native%EF%BC%8BExpo%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%82%B9%E3%83%9E-sample-epub.acsm?id=r4W3DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React_Native%EF%BC%8BExpo%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%82%B9%E3%83%9E-sample-pdf.acsm?id=r4W3DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=r4W3DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "E. \u003cb\u003eReact\u003c/b\u003e hate a tramework to x + {-|- G. G. oa. https://facebook.gitHub.in/reat-rative E] --- ~ or a se 1 A LIN T E H of Eo 31 o Fo. &amp; \u003cb\u003eReact\u003c/b\u003e Native G.EE Docs Community Blog o Search \u003cb\u003eReact\u003c/b\u003e Native Build native mobile apps using JavaScript&nbsp;..."
-      }
+      "isbn_10": "4798111139",
+      "isbn_13": "9784798111131",
+      "title": "現場で使える MySQL (DB Magazine SELECTION)",
+      "author": "松信 嘉範",
+      "publisher": "翔泳社",
+      "published_year": "2006",
+      "number_of_page": "408"
     },
     {
-      "kind": "books#volume",
-      "id": "QNyoDwAAQBAJ",
-      "etag": "Uf5k8n5Icno",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/QNyoDwAAQBAJ",
-      "volumeInfo": {
-        "title": "Android/iOSクロス開発フレームワーク React Native入門",
-        "authors": ["掌田津耶乃"],
-        "publisher": "秀和システム",
-        "publishedDate": "2018-10-28",
-        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 スマートフォンアプリ開発において「AndroidとiPhone（iOS）を別々に開発しなければならない」という問題点は大きな悩みです。その悩みを解決するのが、一度ソースを書けばどちらのアプリも作れる「React Native」です。本書は、React Nativeで効率的にスマホアプリを開発するためのノウハウを解説した入門書です。基本的なUI関係のコンポーネント、グラフィックの描画、データアクセスなど、開発に必要な技術をひととおり解説します。",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "PKEY:BT000060436100100101900209"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=QNyoDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=QNyoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=QNyoDwAAQBAJ&pg=PR11&dq=react&hl=&cd=11&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=QNyoDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QNyoDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 2970,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2673,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=QNyoDwAAQBAJ&rdid=book-QNyoDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 2970000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2673000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Android_iOS%E3%82%AF%E3%83%AD%E3%82%B9%E9%96%8B%E7%99%BA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0-sample-epub.acsm?id=QNyoDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Android_iOS%E3%82%AF%E3%83%AD%E3%82%B9%E9%96%8B%E7%99%BA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0-sample-pdf.acsm?id=QNyoDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=QNyoDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "1-1 \u003cb\u003eReact\u003c/b\u003e Native ####3 O 3: {} /ue \u003cb\u003eReact\u003c/b\u003e Native0) 7 II $2 or &#39;/ F or (EEW US Bijjāj żllf, *#lo Android FHVC to iOSFHK to II 27 S-s /l/ G = 3; 37.2 | JavaScript C7D275=&gt;/27 | \u003cb\u003eReact\u003c/b\u003e NativeCDHok0)###, o żlli sãHE ###, JavaScript &amp; 35 %J&amp; 5&nbsp;..."
-      }
+      "isbn_10": "4797373512",
+      "isbn_13": "9784797373516",
+      "title": "インフラ/ネットワークエンジニアのためのネットワーク技術&設計入門",
+      "author": "みやた ひろし",
+      "publisher": "SBクリエイティブ",
+      "published_year": "2013",
+      "number_of_page": "416"
     },
     {
-      "kind": "books#volume",
-      "id": "2X23DwAAQBAJ",
-      "etag": "r0cpMRPsE9M",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/2X23DwAAQBAJ",
-      "volumeInfo": {
-        "title": "React開発 現場の教科書",
-        "authors": ["石橋啓太", "丸山弘詩"],
-        "publisher": "マイナビ出版",
-        "publishedDate": "2018-03-23",
-        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 JavaScriptライブラリReact＋Atomic Designの導入によるコンポーネントの設計から実装まで。現場で使える、実務に役立つ知識とノウハウを習得したいエンジニアのための、React実践書です。 Reactはフロントエンド開発に革新的な影響を与えました。従来のJavaScriptライブラリと比較して、構築へのアプローチが変わり、今後のUI開発に対する大きなヒントとなり得ます。本書はそうした視点から、Reactを解説していきます。 Chapter01「Web開発の動向」は品質、コスト、スケジュールの観点から、プロジェクト成功における設計の重要性を明らかにします。 Chapter02「Reactの基本」は、Reactの概要、環境構築、記述方法、JSXを解説します。 Chapter03「Atomic Design」では、注目度の高いUIデザインの設計手法、Atomic Designを解説します。 Chapter04「ソースコードのビルド」ではビルド作業の実際を解説します。 Chapter05「コンポーネントの実装」では、UI開発の基本であるコンポーネントの実装方法を解説します。 Chapter06「CSSの実装」では、UI構築において重要なCSSによるスタイリングについて、構造化設計に沿った実装方法を紹介します。 Chapter07「ロジックの実装」では、UIロジックの根幹の状態管理に焦点を定め、Reduxアーキテクチャを例に組み込み方法を解説します。 Chapter08「プロダクトの品質」では、品質向上や品質維持に繋がる手法と実現するツールを紹介します。",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "PKEY:BT000050730500100101900209"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 336,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.2.2.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=2X23DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=2X23DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=2X23DwAAQBAJ&pg=PA42&dq=react&hl=&cd=12&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=2X23DwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2X23DwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 3839,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 3455,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=2X23DwAAQBAJ&rdid=book-2X23DwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 3839000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 3455000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React%E9%96%8B%E7%99%BA_%E7%8F%BE%E5%A0%B4%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8-sample-epub.acsm?id=2X23DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React%E9%96%8B%E7%99%BA_%E7%8F%BE%E5%A0%B4%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8-sample-pdf.acsm?id=2X23DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=2X23DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Chapter 2 | \u003cb\u003eReact\u003c/b\u003e (Dłż. 2-4 Reacto) ###75; Éjājā; G (DääEB G \u003cb\u003eReact\u003c/b\u003e ##Ef 5 33% sis) # U \\# U foo # If &amp; -5 K (C# -5 °C U \\je (DTG 3 s) ~ 2 # G ÉÉ U 7-###### U K U \\ 3 o&#39; &amp; Co., \u003cb\u003eReact\u003c/b\u003e #sofl|C}# J. K. #Ef 5 33% sity&#39;s;&nbsp;..."
-      }
+      "isbn_10": "1934356557",
+      "isbn_13": "9781934356555",
+      "title": "SQL Antipatterns: Avoiding the Pitfalls of Database Programming (Pragmatic Programmers)",
+      "author": "BillKarwin",
+      "publisher": "Pragmatic Bookshelf",
+      "published_year": "2010",
+      "number_of_page": "328"
     },
     {
-      "kind": "books#volume",
-      "id": "RWn9DwAAQBAJ",
-      "etag": "URO+9OLoFTU",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/RWn9DwAAQBAJ",
-      "volumeInfo": {
-        "title": "サンプルコードで作りながら学ぶReact Native実践入門",
-        "authors": ["星 直史"],
-        "publisher": "インプレスR&D",
-        "publishedDate": "2020-10-21",
-        "description": "スマホアプリをSwiftで開発する際、エンジニアの大半がWebを主戦場にしていると、Swift製のスマホアプリをメンテナンスできるエンジニアが限られてしまいます。この状況では、継続的かつ迅速に開発を行うことはおろか、ビジネス要求に応えることも困難です。本書ではこのような状況下で筆者が経験した状況、技術選定、開発時の詳細(React Nativeによる実装)を紹介します。 【目次】 第1章 スマアプリ開発の全体像 第2章 Webエンジニアのための技術選定 第3章 環境構築 第4章 Reactのおさらい 第5章 React NativeによるUI構築 第6章 ルーティングとナビゲーション 第7章 State管理 第8章 API通信 第9章 Push通知 第10章 ディープリンキング 第11章 アプリのリリース",
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "printType": "BOOK",
-        "categories": ["Technology & Engineering"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.3.3.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=RWn9DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=RWn9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=RWn9DwAAQBAJ&pg=PT12&dq=react&hl=&cd=13&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=RWn9DwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RWn9DwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 1760,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 1584,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=RWn9DwAAQBAJ&rdid=book-RWn9DwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 1760000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 1584000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89-sample-epub.acsm?id=RWn9DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89-sample-pdf.acsm?id=RWn9DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=RWn9DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "しかし要件や仕様によってはUI が実現できない場合もある・学習コストを低く抑えることはできるか─\u003cb\u003eReact\u003c/b\u003e Nativeの場合は、Webのフロントエンドで\u003cb\u003eReact\u003c/b\u003eを導入しているため言語に関する学習コストは無い。FlutterやXamarinの場合は、DartとC#を使うことに&nbsp;..."
-      }
+      "isbn_10": "4798103853",
+      "isbn_13": "9784798103853",
+      "title": "実践的データモデリング入門 (DB Magazine SELECTION)",
+      "author": "真野 正",
+      "publisher": "翔泳社",
+      "published_year": "2003",
+      "number_of_page": "319"
     },
     {
-      "kind": "books#volume",
-      "id": "VSv3DwAAQBAJ",
-      "etag": "CdNSYVAleJM",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/VSv3DwAAQBAJ",
-      "volumeInfo": {
-        "title": "React環境構築の教科書",
-        "authors": ["井手 優太"],
-        "publisher": "インプレスR&D",
-        "publishedDate": "2020-08-21",
-        "description": "本書はReactをテーマに、Webフロントエンド開発の環境構築を1つ1つ丁寧に解説します。特に設定が足りない状態で動かすとどうなるのか、なぜその設定が必要なのかについて踏み込んで説明しています。環境構築の難しさは、設定をどれか1つでも間違えると動かないことにあります。そのため、環境構築をする際は1つ1つの設定で自分が何をしているのかを正確に把握しなければいけません。この本では暗黙的に「そういうものだから」と思われがちな設定に注目し、解説します。どの設定を足さなければ動かないのか、サンプルコードを示しながら学ぶことができます。 【目次】 第1章 Node.jsを使ったビルド環境整備 第2章 Babelを使ったトランスパイル 第3章 TypeScriptを使ったコンパイル 第4章 webpackを使ったバンドルとビルド 第5章 ESLintを使った静的解析 第6章 Prettierを使ったフォーマット 第7章 Storybookを使ったコンポーネント管理 第8章 Jestを使ったテスト 第9章 0から環境を作ってみる 付録A バージョンの追従",
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "printType": "BOOK",
-        "categories": ["Technology & Engineering"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.2.2.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=VSv3DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=VSv3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=VSv3DwAAQBAJ&pg=PT3&dq=react&hl=&cd=14&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=VSv3DwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VSv3DwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 1760,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 1584,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=VSv3DwAAQBAJ&rdid=book-VSv3DwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 1760000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 1584000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8-sample-epub.acsm?id=VSv3DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8-sample-pdf.acsm?id=VSv3DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=VSv3DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "ここで \u003cb\u003ereact\u003c/b\u003eを指定するとjsを出力し、preserveを指定するとjsxを出力します。 8 \u003cb\u003ereact\u003c/b\u003eを指定してjsを出力すると変換が一度で済みますが、preserveを利用すると、jsxをjsに変換する必要が生まれます。ただしデメリットではなく、jsxからjsの変換をBabelに&nbsp;..."
-      }
+      "isbn_10": "4774143073",
+      "isbn_13": "9784774143071",
+      "title": "[Web開発者のための]大規模サービス技術入門 ―データ構造、メモリ、OS、DB、サーバ/インフラ (WEB+DB PRESS plusシリーズ)",
+      "author": "伊藤 直也",
+      "publisher": "技術評論社",
+      "published_year": "2010",
+      "number_of_page": "352"
     },
     {
-      "kind": "books#volume",
-      "id": "_OKoDwAAQBAJ",
-      "etag": "hqJvGn5DesY",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/_OKoDwAAQBAJ",
-      "volumeInfo": {
-        "title": "作りながら学ぶReact入門",
-        "authors": ["吉田裕美"],
-        "publisher": "秀和システム",
-        "publishedDate": "2017-09-25",
-        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 2013年にFacebook社によって公開されたJavaScriptライブラリーがReact（React.js）です。仮想DOMによる高速表示、コンポーネント指向による高いメンテナンス性といった特長からFacebookだけでなく、Instagram、Airbnbなどの大規模Webサービスでも採用されています。本書は、簡単なじゃんけんアプリを作りながら学べるReactの入門書です。開発環境構築も詳述しましたので、JavaScript（ES6）への移行を目指す人にも最適です！",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "PKEY:BT000050557600100101900209"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=_OKoDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=_OKoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=_OKoDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=15&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=_OKoDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_OKoDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 1980,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 1782,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=_OKoDwAAQBAJ&rdid=book-_OKoDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 1980000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 1782000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6React%E5%85%A5%E9%96%80-sample-epub.acsm?id=_OKoDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E4%BD%9C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E5%AD%A6%E3%81%B6React%E5%85%A5%E9%96%80-sample-pdf.acsm?id=_OKoDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=_OKoDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用など ..."
-      }
+      "isbn_10": "4873114764",
+      "isbn_13": "9784873114767",
+      "title": "検索と発見のためのデザイン ―エクスペリエンスの未来へ",
+      "author": "Peter Morville",
+      "publisher": "オライリージャパン",
+      "published_year": "2010",
+      "number_of_page": "208"
     },
     {
-      "kind": "books#volume",
-      "id": "9MJ9DwAAQBAJ",
-      "etag": "+zNmj4//iSg",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/9MJ9DwAAQBAJ",
-      "volumeInfo": {
-        "title": "実践Expo",
-        "subtitle": "React NativeとFirebaseで、SNSアプリを最速ストアリリース！",
-        "authors": ["前田 翼", "渡邊 雄"],
-        "publisher": "インプレスR&D",
-        "publishedDate": "2018-12-14",
-        "description": "【React Native & Expoでストアにアプリをリリースできる！】 本書はiOSとAndroidアプリを同時に開発できるフレームワークであるReact Nativeを使って、実際にストアリリースできるアプリの開発を行うための各種ノウハウをユースケース別に紹介した解説書です。「React Nativeで開発したアプリを運用することは現実的なのか？」「Expoを使ったアプリは大丈夫か？」といった疑問に応える一冊です。 〈本書の対象読者〉 ・アプリ開発に興味があるWebプログラマ ・クロスプラットフォーム開発に興味があるプログラマ ・React Native プログラマ 【目次】 第1章 React NativeとExpoの役割とは 1.1 React Nativeについて 1.2 Expoについて 第2章 はじめてのExpo製アプリを作ってみよう 2.1 SnackでHello Worldしよう 2.2 コーディングをしよう 2.3 ローカル環境を構築しよう 第3章 Expoのよく使われる機能と画面遷移を学ぼう 3.1 どういうアプリを作るのか？ 3.2 アプリ構築の流れ 第4章 Firebaseと連携しよう 4.1 Firebaseのプロジェクトを作成しよう 4.2 ユーザーの情報を取得しよう 4.3 ユーザーのプロフィール写真を変更しよう 4.4 投稿をアップロードしよう 4.5 投稿一覧を表示しよう 4.6 投稿のサムネイル一覧を表示しよう 4.7 キーワードから始まるタグを取得できるようにしよう 4.8 投稿に「いいね」できるようにしよう 4.9 通知一覧を表示しよう 4.10 投稿詳細画面で投稿を表示しよう 4.11 まとめ 第5章 ExpoとFirebaseでプッシュ通知を楽に実装しよう 5.1 プッシュ通知の仕組み 5.2 プッシュ通知を許可してもらおう 5.3 プッシュ通知を送るCloud Functionsを作成しよう 5.4 プッシュ通知をタップしてアプリを開こう 5.5 通知一覧ページを開いたらアプリアイコンのバッジを消そう 5.6 プッシュ通知のまとめ 5.7 よりよいアプリにするためのTips 5.8 まとめ 第6章 解析・エラートラッキング・多言語対応・テストを行おう 6.1 解析 6.2 エラートラッキング 6.3 多言語対応 6.4 テスト 6.5 まとめ 第7章 アプリをストアに申請しよう 7.1 デベロッパー登録をしよう 7.2 アプリをビルドしよう 7.3 アプリ申請をするためのアプリ情報を入力しよう 7.4 ビルドしたアプリをストアにアップロードしよう 7.5 アプリを申請・公開しよう 7.6 まとめ",
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 243,
-        "printType": "BOOK",
-        "categories": ["Technology & Engineering"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.2.2.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=9MJ9DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=9MJ9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=9MJ9DwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=16&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=9MJ9DwAAQBAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%AE%9F%E8%B7%B5Expo.html?hl=&id=9MJ9DwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E5%AE%9F%E8%B7%B5Expo-sample-epub.acsm?id=9MJ9DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E5%AE%9F%E8%B7%B5Expo-sample-pdf.acsm?id=9MJ9DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=9MJ9DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "【React Native &amp; Expoでストアにアプリをリリースできる！】 本書はiOSとAndroidアプリを同時に開発できるフレームワークであるReact ..."
-      }
+      "isbn_10": "487311151X",
+      "isbn_13": "9784873111513",
+      "title": "LinuxサーバHacks―プロが使うテクニック&ツール100選",
+      "author": "ロブ フリッケンガー",
+      "publisher": "オライリージャパン",
+      "published_year": "2003",
+      "number_of_page": "264"
     },
     {
-      "kind": "books#volume",
-      "id": "NZCKCgAAQBAJ",
-      "etag": "dBopiFDBeXA",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/NZCKCgAAQBAJ",
-      "volumeInfo": {
-        "title": "Introduction to React",
-        "authors": ["Cory Gackenheimer"],
-        "publisher": "Apress",
-        "publishedDate": "2015-09-11",
-        "description": "Introduction to React teaches you React, the JavaScript framework created by developers at Facebook, to solve the problem of building complex user interfaces in a consistent and maintainable way. React.js shrugs away common front-end conventions in an effort to make things more efficient - use Introduction to React to learn about this framework and more today. Get to know the React API and it’s specific JavaScript extension, JSX, which makes authoring React components easier and maintainable. You will also learn how to test your React applications and about the tools you can use while building. Once you understand these core concepts, you can build applications with React. This will help you cement the ideas and fundamentals of React and prepare you to utilize React in your own use case. What You'll Learn: How to use React to maintain complex user interfaces in an efficient way How to integrate existing user interfaces and move forward with React How to manage application architecture using Flux How to easily utilize JSX, React's JavaScript extension",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781484212455"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1484212452"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 129,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "0.4.4.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=NZCKCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=NZCKCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=NZCKCgAAQBAJ&printsec=frontcover&dq=react&hl=&cd=17&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=NZCKCgAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NZCKCgAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 3313,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2982,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=NZCKCgAAQBAJ&rdid=book-NZCKCgAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 3313000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2982000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Introduction_to_React-sample-epub.acsm?id=NZCKCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Introduction_to_React-sample-pdf.acsm?id=NZCKCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=NZCKCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Introduction to React teaches you React, the JavaScript framework created by developers at Facebook, to solve the problem of building complex user interfaces in a consistent and maintainable way."
-      }
+      "isbn_10": "429710623X",
+      "isbn_13": "9784297106232",
+      "title": "TCP技術入門 ――進化を続ける基本プロトコル (WEB+DB PRESS plusシリーズ)",
+      "author": "安永 遼真",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "288"
     },
     {
-      "kind": "books#volume",
-      "id": "NkJ9DQAAQBAJ",
-      "etag": "QBBPitIWTYA",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/NkJ9DQAAQBAJ",
-      "volumeInfo": {
-        "title": "WebデベロッパーのためのReact開発入門 JavaScript UIライブラリの基本と活用",
-        "authors": ["柴田 文彦"],
-        "publisher": "（株）インプレス",
-        "publishedDate": "2016-11-25",
-        "description": "Reactのコンセプト、コンポーネント、JSX、活用テクニック、一歩進んだ使い方を解説！ Reactは、Webアプリケーションにおいて、ユーザーインターフェース（UI）を構築するためのJavaScriptライブラリ。Facebook/Instagram社が中心となって、オープンソースとして開発・保守されています。Reactを使えば、プログラムの保守・再利用が容易になると同時に比較的高速な動作を実現できます。 本書ではこれらの特長を概観したあと、開発の基本、一歩進んだ使い方などを解説します。HelloWorldや小さめのサンプルからはじめることで、初歩のレベルから着実に理解できるようにしました。これからReactによる開発を学ぼうとする方にとって最適な実践的入門書です。 発行：インプレス",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9784295000334"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "4295000337"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 240,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=NkJ9DQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=NkJ9DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=NkJ9DQAAQBAJ&printsec=frontcover&dq=react&hl=&cd=18&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=NkJ9DQAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NkJ9DQAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 2750,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2475,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=NkJ9DQAAQBAJ&rdid=book-NkJ9DQAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 2750000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2475000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Web%E3%83%87%E3%83%99%E3%83%AD%E3%83%83%E3%83%91%E3%83%BC%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AEReact-sample-pdf.acsm?id=NkJ9DQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=NkJ9DQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Reactのコンセプト、コンポーネント、JSX、活用テクニック、一歩進んだ使い方を解説！ Reactは、Webアプリケーションにおいて、ユーザーインターフェース（UI）を構築するためのJa ..."
-      }
+      "isbn_10": "4873114322",
+      "isbn_13": "9784873114323",
+      "title": "ウェブアプリケーションのためのユニバーサルデザイン",
+      "author": "Wendy Chisholm",
+      "publisher": "オライリージャパン",
+      "published_year": "2009",
+      "number_of_page": "260"
     },
     {
-      "kind": "books#volume",
-      "id": "Y4P0jgEACAAJ",
-      "etag": "PX9HQqXumWg",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/Y4P0jgEACAAJ",
-      "volumeInfo": {
-        "title": "エビアンワンダーREACT 1",
-        "authors": ["おがきちか"],
-        "publishedDate": "2004-12",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "4758051143"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9784758051149"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 194,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=Y4P0jgEACAAJ&dq=react&hl=&cd=19&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=Y4P0jgEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/%E3%82%A8%E3%83%93%E3%82%A2%E3%83%B3%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BCREACT_1.html?hl=&id=Y4P0jgEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=Y4P0jgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
+      "isbn_10": "4873117607",
+      "isbn_13": "9784873117607",
+      "title": "マイクロサービスアーキテクチャ",
+      "author": "Sam Newman",
+      "publisher": "オライリージャパン",
+      "published_year": "2016",
+      "number_of_page": "344"
     },
     {
-      "kind": "books#volume",
-      "id": "maLzAAAAMAAJ",
-      "etag": "adlHdS5a8BQ",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/maLzAAAAMAAJ",
-      "volumeInfo": {
-        "title": "Generation React",
-        "subtitle": "Activism for Beginners",
-        "authors": ["Danny Seo"],
-        "publishedDate": "1997",
-        "description": "A teenage crusader offers young people tips on how to become an activist, discussing the practicalities of changing the world, from winning media exposure and corporate sponsorship to working with legislators and launching a campaign. Original.",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "WISC:89058766080"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 183,
-        "printType": "BOOK",
-        "categories": ["Social Science"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.2.1.0.preview.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=maLzAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=maLzAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=maLzAAAAMAAJ&q=react&dq=react&hl=&cd=20&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=maLzAAAAMAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Generation_React.html?hl=&id=maLzAAAAMAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=maLzAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
+      "isbn_10": "4478069964",
+      "isbn_13": "9784478069967",
+      "title": "ブロックチェーン・レボリューション ――ビットコインを支える技術はどのようにビジネスと経済、そして世界を変えるのか",
+      "author": "ドン・タプスコット",
+      "publisher": "ダイヤモンド社",
+      "published_year": "2016",
+      "number_of_page": "424"
     },
     {
-      "kind": "books#volume",
-      "id": "HAKdjwEACAAJ",
-      "etag": "rFbBVfHCzRw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/HAKdjwEACAAJ",
-      "volumeInfo": {
-        "title": "React Quickly",
-        "authors": ["Azat Mardan"],
-        "publisher": "Manning Publications",
-        "publishedDate": "2016-07-01",
-        "description": "React is a JavaScript library developed for one main reason—to build reusable UI components that present ever-changing data. The React philosophy is to focus solely on the user interface. In model-view-controller (MVC) terminology, React is the view. Because it has to work with models and other libraries, it's designed to play nicely with pretty much any other framework, router, style, and model library. And it's well-supported—React emerged from Instagram and is now used by Facebook, Asana, Khan Academy, and Atom among many more. React Quickly is for anyone who wants to learn React.js fast. This hands-on book teaches needed concepts by using lots of examples, tutorials, and a large main project that gets built throughout. It starts with the basics, including how React fits into applications, JSX, and handling states, and events. Next, it explores core topics like components, forms, and data. Finally, the book dives into React integration topics, like unit testing and isomorphic JavaScript with Express.js, and Gulp. Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "1617293342"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9781617293344"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 225,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=HAKdjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=HAKdjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=HAKdjwEACAAJ&dq=react&hl=&cd=21&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=HAKdjwEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/React_Quickly.html?hl=&id=HAKdjwEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=HAKdjwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Summary React Quickly is for anyone who wants to learn React.js fast. This hands-on book teaches you the concepts you need with lots of examples, tutorials, and a large main project that gets built throughout the book."
-      }
+      "isbn_10": "4569826156",
+      "isbn_13": "9784569826158",
+      "title": "すべての組織は変えられる 好調な企業はなぜ「ヒト」に投資するのか (PHPビジネス新書)",
+      "author": "麻野 耕司",
+      "publisher": "PHP研究所",
+      "published_year": "2015",
+      "number_of_page": "205"
     },
     {
-      "kind": "books#volume",
-      "id": "jgckQsCfNWsC",
-      "etag": "DDcm9O+qqWA",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/jgckQsCfNWsC",
-      "volumeInfo": {
-        "title": "Read, Write, React (Im)",
-        "authors": ["Smith"],
-        "publishedDate": "1996-11",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0070592535"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780070592537"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.2.3.0.preview.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=jgckQsCfNWsC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=jgckQsCfNWsC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=jgckQsCfNWsC&q=react&dq=react&hl=&cd=22&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=jgckQsCfNWsC&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Read_Write_React_Im.html?hl=&id=jgckQsCfNWsC"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=jgckQsCfNWsC&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
+      "isbn_10": "4863540930",
+      "isbn_13": "9784863540934",
+      "title": "R言語逆引きハンドブック",
+      "author": "石田基広",
+      "publisher": "シーアンドアール研究所",
+      "published_year": "2012",
+      "number_of_page": "663"
     },
     {
-      "kind": "books#volume",
-      "id": "wihtAAAAMAAJ",
-      "etag": "ahiZleuG1/c",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/wihtAAAAMAAJ",
-      "volumeInfo": {
-        "title": "Study to Determine how Selected Patients React to the Labor Room Experience",
-        "authors": ["Hazel V. Pierce"],
-        "publishedDate": "1959",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "UOM:39015057738190"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 152,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.5.5.0.preview.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=wihtAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=wihtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=wihtAAAAMAAJ&q=react&dq=react&hl=&cd=23&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=wihtAAAAMAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Study_to_Determine_how_Selected_Patients.html?hl=&id=wihtAAAAMAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=wihtAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Hazel V. Pierce. I C. Patients will \u003cb\u003ereact\u003c/b\u003e variously to activities, interactions , d."
-      }
+      "isbn_10": "486354135X",
+      "isbn_13": "9784863541351",
+      "title": "R言語上級ハンドブック",
+      "author": "荒引 健",
+      "publisher": "シーアンドアール研究所",
+      "published_year": "2013",
+      "number_of_page": "528"
     },
     {
-      "kind": "books#volume",
-      "id": "weEgpmpVU5QC",
-      "etag": "oYmF3LGl0pk",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/weEgpmpVU5QC",
-      "volumeInfo": {
-        "title": "Think, Read, React, Plan, Write, Rewrite",
-        "subtitle": "A Reader-writer Worktext",
-        "authors": ["W. Royce Adams"],
-        "publisher": "Harcourt School",
-        "publishedDate": "1990",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0030308178"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780030308178"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 350,
-        "printType": "BOOK",
-        "categories": ["Language Arts & Disciplines"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.2.2.0.preview.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=weEgpmpVU5QC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=weEgpmpVU5QC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=weEgpmpVU5QC&q=react&dq=react&hl=&cd=24&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=weEgpmpVU5QC&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Think_Read_React_Plan_Write_Rewrite.html?hl=&id=weEgpmpVU5QC"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=weEgpmpVU5QC&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
+      "isbn_10": "489476654X",
+      "isbn_13": "9784894766549",
+      "title": "Rで学ぶ日本語テキストマイニング",
+      "author": "石田 基広",
+      "publisher": "ひつじ書房",
+      "published_year": "2013",
+      "number_of_page": "208"
     },
     {
-      "kind": "books#volume",
-      "id": "viIvEAAAQBAJ",
-      "etag": "In4FtX6T//I",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/viIvEAAAQBAJ",
-      "volumeInfo": {
-        "title": "React 17 Design Patterns and Best Practices",
-        "subtitle": "Design, build, and deploy production-ready web applications using industry-standard practices, 3rd Edition",
-        "authors": ["Carlos Santana Roldan"],
-        "publisher": "Packt Publishing Ltd",
-        "publishedDate": "2021-05-17",
-        "description": "React is an open-source JavaScript library that is used for building user interfaces or UI components. This React book is designed to take you through the most valuable design patterns in React, helping you learn how to apply design patterns and best practices in real-world scenarios.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781800561762"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1800561768"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 394,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=viIvEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=viIvEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=viIvEAAAQBAJ&printsec=frontcover&dq=react&hl=&cd=25&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=viIvEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=viIvEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 3182,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2864,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=viIvEAAAQBAJ&rdid=book-viIvEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 3182000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2864000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=viIvEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This React book is designed to take you through the most valuable design patterns in React, helping you learn how to apply design patterns and best practices in real-world scenarios."
-      }
+      "isbn_10": "4916092910",
+      "isbn_13": "9784916092915",
+      "title": "Rによる時系列分析入門",
+      "author": "田中 孝文",
+      "publisher": "シーエーピー出版",
+      "published_year": "2008",
+      "number_of_page": "393"
     },
     {
-      "kind": "books#volume",
-      "id": "lv9UEAAAQBAJ",
-      "etag": "S8aTS/yG4So",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/lv9UEAAAQBAJ",
-      "volumeInfo": {
-        "title": "React Angular Vueをスムーズに修得するための最新フロントエンド技術入門",
-        "authors": ["末次章"],
-        "publisher": "日経BP",
-        "publishedDate": "2021-12-17",
-        "description": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用などの機能が使用できません。 フロントエンド向けアプリケーションフレームワーク（ React、Angular、Vue）の学習には、従来のWeb開発にはなかった「フレームワークごとの違い」、「未知の用語や概念」、「進化したJavaScript開発環境」など、最新のフロントエンド技術の知識が求められます。これらを、その都度調べていては効率が悪いだけでなく、知識が断片的になってしまいます。本書は、フレームワークの学習に必要なフロントエンド技術の基礎を体系的に解説し、この課題を解決します。 なお、本書ではフレームワーク共通で必要な基礎知識と、フレームワークごとの主な違いを説明しており、React、Angular、Vueのどの学習にも役立ちます。一方、フレームワークごとのコード作成の詳細については説明していないので、各フレームワークの公式サイトや関連書籍などを参照してください。",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "PKEY:BT000105746700100101900209"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 284,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.1.0.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=lv9UEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=lv9UEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=lv9UEAAAQBAJ&printsec=frontcover&dq=react&hl=&cd=26&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=lv9UEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lv9UEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 3080,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2772,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=lv9UEAAAQBAJ&rdid=book-lv9UEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 3080000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2772000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React_Angular_Vue%E3%82%92%E3%82%B9%E3%83%A0%E3%83%BC%E3%82%BA%E3%81%AB%E4%BF%AE-sample-epub.acsm?id=lv9UEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/React_Angular_Vue%E3%82%92%E3%82%B9%E3%83%A0%E3%83%BC%E3%82%BA%E3%81%AB%E4%BF%AE-sample-pdf.acsm?id=lv9UEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=lv9UEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "※この商品はタブレットなど大きいディスプレイを備えた端末で読むことに適しています。また、文字だけを拡大することや、文字列のハイライト、検索、辞書の参照、引用など ..."
-      }
+      "isbn_10": "4627096011",
+      "isbn_13": "9784627096011",
+      "title": "Rによるデータサイエンス データ解析の基礎から最新手法まで",
+      "author": "金 明哲",
+      "publisher": "森北出版",
+      "published_year": "2007",
+      "number_of_page": "320"
     },
     {
-      "kind": "books#volume",
-      "id": "M7abDwAAQBAJ",
-      "etag": "11rBJRnJMLo",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/M7abDwAAQBAJ",
-      "volumeInfo": {
-        "title": "カメラアプリで体感するWeb App",
-        "authors": ["?宮代 理弘"],
-        "publisher": "インプレスR&D",
-        "publishedDate": "2019-06-14",
-        "description": "本書は、「今」使える技術やAPI をふんだんに使った、ブラウザで動くカメラアプリの作り方を通じて各種の技術をハンズオン形式で解説します。 Parcel や React、CSS Modules の設定に始まり、画面のスタイリング、 getUserMedia や applyConstraints、ImageCapture、 EXIF、 Geolocation、 WebAssembly、Web Worker、OffscreenCanvas、Shape Detection API、WebGL、PWA などの技術を、『広く浅く』学ぶことができる一冊です！ 【目次】 第1章 環境構築をしよう 第2章 シンプルなカメラアプリを作ろう 第3章 カメラの設定を変えよう 第4章 EXIFをつけよう 第5章 コンポーネントを整理しよう 第6章 フィルターを実装しよう 第7章 QR コードリーダーを作る 第8章 アニメーションGIFを作ろう 第9章 PWAとして配信しよう",
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "printType": "BOOK",
-        "categories": ["Technology & Engineering"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=M7abDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=M7abDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=M7abDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=27&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=M7abDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=M7abDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 2420,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2178,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=M7abDwAAQBAJ&rdid=book-M7abDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 2420000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2178000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E4%BD%93%E6%84%9F%E3%81%99%E3%82%8BWeb_App-sample-epub.acsm?id=M7abDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E4%BD%93%E6%84%9F%E3%81%99%E3%82%8BWeb_App-sample-pdf.acsm?id=M7abDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=M7abDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "本書は、「今」使える技術やAPI をふんだんに使った、ブラウザで動くカメラアプリの作り方を通じて各種の技術をハンズオン形式で解説します。 Parcel や React、CSS Modules ..."
-      }
+      "isbn_10": "1934356581",
+      "isbn_13": "9781934356586",
+      "title": "The Agile Samurai: How Agile Masters Deliver Great Software (Pragmatic Programmers)",
+      "author": "JonathanRasmusson",
+      "publisher": "Pragmatic Bookshelf",
+      "published_year": "2010",
+      "number_of_page": "264"
     },
     {
-      "kind": "books#volume",
-      "id": "aQmaDwAAQBAJ",
-      "etag": "YfHYo8qzC/Y",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/aQmaDwAAQBAJ",
-      "volumeInfo": {
-        "title": "Hands-On Full Stack Development with Spring Boot 2 and React",
-        "subtitle": "Build modern and scalable full stack applications using Spring Framework 5 and React with Hooks, 2nd Edition",
-        "authors": ["Juha Hinkula"],
-        "publisher": "Packt Publishing Ltd",
-        "publishedDate": "2019-05-23",
-        "description": "A comprehensive guide to building full stack applications covering frontend and server-side programming, data management, and web security Key Features Unleash the power of React Hooks to build interactive and complex user interfaces Build scalable full stack applications designed to meet demands of modern users Understand how the Axios library simplifies CRUD operations Book Description React Hooks have changed the way React components are coded. They enable you to write components in a more intuitive way without using classes, which makes your code easier to read and maintain. Building on from the previous edition, this book is updated with React Hooks and the latest changes introduced in create-react-app and Spring Boot 2.1. This book starts with a brief introduction to Spring Boot. You’ll understand how to use dependency injection and work with the data access layer of Spring using Hibernate as the ORM tool. You’ll then learn how to build your own RESTful API endpoints for web applications. As you advance, the book introduces you to other Spring components, such as Spring Security to help you secure the backend. Moving on, you’ll explore React and its app development environment and components for building your frontend. Finally, you’ll create a Docker container for your application by implementing the best practices that underpin professional full stack web development. By the end of this book, you’ll be equipped with all the knowledge you need to build modern full stack applications with Spring Boot for the backend and React for the frontend. What you will learn Create a RESTful web service with Spring Boot Grasp the fundamentals of dependency injection and how to use it for backend development Discover techniques for securing the backend using Spring Security Understand how to use React for frontend programming Benefit from the Heroku cloud server by deploying your application to it Delve into the techniques for creating unit tests using JUnit Explore the Material UI component library to make more user-friendly user interfaces Who this book is for If you are a Java developer familiar with Spring, but are new to building full stack applications, this is the book for you.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781838823269"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1838823263"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 316,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "0.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=aQmaDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=aQmaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=aQmaDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=28&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=aQmaDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=aQmaDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 2784,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2506,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=aQmaDwAAQBAJ&rdid=book-aQmaDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 2784000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2506000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=aQmaDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "The front-end is developed by using React which is a modern JavaScript library for building fast and reliable user interfaces. By the end of this book, you will master the process ."
-      }
+      "isbn_10": "4797347783",
+      "isbn_13": "9784797347784",
+      "title": "アジャイルソフトウェア開発の奥義 第2版 オブジェクト指向開発の神髄と匠の技",
+      "author": "ロバート・C・マーチン",
+      "publisher": "SBクリエイティブ",
+      "published_year": "2008",
+      "number_of_page": "712"
     },
     {
-      "kind": "books#volume",
-      "id": "QZ6UzgEACAAJ",
-      "etag": "SMtUX8OPquc",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/QZ6UzgEACAAJ",
-      "volumeInfo": {
-        "title": "React.js 入門",
-        "publishedDate": "2016",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "OCLC:1259008882"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=QZ6UzgEACAAJ&dq=react&hl=&cd=29&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=QZ6UzgEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/React_js_%E5%85%A5%E9%96%80.html?hl=&id=QZ6UzgEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=QZ6UzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
+      "isbn_10": "4839924023",
+      "isbn_13": "9784839924027",
+      "title": "アジャイルな見積りと計画づくり ~価値あるソフトウェアを育てる概念と技法~",
+      "author": "Mike Cohn",
+      "publisher": "毎日コミュニケーションズ",
+      "published_year": "2009",
+      "number_of_page": "336"
     },
     {
-      "kind": "books#volume",
-      "id": "SM2NDwAAQBAJ",
-      "etag": "iNLwNlcGLv0",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/SM2NDwAAQBAJ",
-      "volumeInfo": {
-        "title": "Pro React 16",
-        "authors": ["Adam Freeman"],
-        "publisher": "Apress",
-        "publishedDate": "2019-03-19",
-        "description": "Use the enormously popular React framework to build dynamic JavaScript applications that take advantage of the capabilities of modern browsers and devices. You will learn how React brings the power of strong architecture and responsive data to the client, providing the foundation for complex and rich user interfaces. Best-selling author Adam Freeman explains how to get the most from React. He begins by describing the React architecture and the benefits it offers and then shows you how to use React and its associated tools and libraries in your projects, starting from the nuts and bolts and building up to the most advanced and sophisticated features, going in-depth to give you the knowledge you need. Each topic is presented clearly and concisely. Chapters include common problems and how to avoid them. What You’ll Learn Gain a solid understanding of the React design Create rich and dynamic web app clients using React Create data stores using Redux Consume data using REST and GraphQL Test your React projects Who This Book Is For JavaScript developers who want to use React to create dynamic client-side applications",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781484244517"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1484244516"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 745,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=SM2NDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=SM2NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=SM2NDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=30&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=SM2NDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SM2NDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 7022,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 6320,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=SM2NDwAAQBAJ&rdid=book-SM2NDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 7022000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 6320000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Pro_React_16-sample-epub.acsm?id=SM2NDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Pro_React_16-sample-pdf.acsm?id=SM2NDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=SM2NDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "What You’ll Learn Gain a solid understanding of the React design Create rich and dynamic web app clients using React Create data stores using Redux Consume data using REST and GraphQL Test your React projects Who This Book Is For ..."
-      }
+      "isbn_10": "4797361190",
+      "isbn_13": "9784797361193",
+      "title": "体系的に学ぶ 安全なWebアプリケーションの作り方 脆弱性が生まれる原理と対策の実践",
+      "author": "徳丸 浩",
+      "publisher": "SBクリエイティブ",
+      "published_year": "2011",
+      "number_of_page": "496"
     },
     {
-      "kind": "books#volume",
-      "id": "KahbzgEACAAJ",
-      "etag": "JBlI+4HU1LY",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/KahbzgEACAAJ",
-      "volumeInfo": {
-        "title": "基礎から学ぶReact Native入門",
-        "authors": ["中川幸哉"],
-        "publishedDate": "2021-02-25",
-        "description": "アプリを作りながらReact Nativeを学ぼう!作例だけでなく基本の仕組みから実践まで解説。",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "4798169560"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9784798169569"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 170,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=KahbzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=KahbzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=KahbzgEACAAJ&dq=react&hl=&cd=31&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=KahbzgEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6React_Native%E5%85%A5%E9%96%80.html?hl=&id=KahbzgEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=KahbzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "アプリを作りながらReact Nativeを学ぼう!作例だけでなく基本の仕組みから実践まで解説。"
-      }
+      "isbn_10": "4798126004",
+      "isbn_13": "9784798126005",
+      "title": "100人のプロが選んだソフトウェア開発の名著 君のために選んだ1冊",
+      "author": "デブサミ運営事務局",
+      "publisher": "翔泳社",
+      "published_year": "2012",
+      "number_of_page": "216"
     },
     {
-      "kind": "books#volume",
-      "id": "EE_VDwAAQBAJ",
-      "etag": "26ebuORP2r0",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/EE_VDwAAQBAJ",
-      "volumeInfo": {
-        "title": "JavaScript Everywhere",
-        "subtitle": "Building Cross-Platform Applications with GraphQL, React, React Native, and Electron",
-        "authors": ["Adam D. Scott"],
-        "publisher": "\"O'Reilly Media, Inc.\"",
-        "publishedDate": "2020-02-06",
-        "description": "JavaScript is the little scripting language that could. Once used chiefly to add interactivity to web browser windows, JavaScript is now a primary building block of powerful and robust applications. In this practical book, new and experienced JavaScript developers will learn how to use this language to create APIs as well as web, mobile, and desktop applications. Author and engineering leader Adam D. Scott covers technologies such as Node.js, GraphQL, React, React Native, and Electron. Ideal for developers who want to build full stack applications and ambitious web development beginners looking to bootstrap a startup, this book shows you how to create a single CRUD-style application that will work across several platforms. Explore GraphQL’s simple process for querying data Learn about shared authentication for APIs, web apps, and native applications Build performant web applications with React and Styled Components Use React Native to write cross-platform applications for iOS and Android that compile to native code Learn how to write desktop applications with Electron",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781492046936"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1492046930"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 344,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=EE_VDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=EE_VDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=EE_VDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=32&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=EE_VDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=EE_VDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 4862,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 4376,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=EE_VDwAAQBAJ&rdid=book-EE_VDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 4862000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 4376000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=EE_VDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "In this practical book, new and experienced JavaScript developers will learn how to use this language to create APIs as well as web, mobile, and desktop applications."
-      }
+      "isbn_10": "447837449X",
+      "isbn_13": "9784478374498",
+      "title": "先制型プロジェクト・マネジメント―なぜ、あなたのプロジェクトは失敗するのか",
+      "author": "長尾 清一",
+      "publisher": "ダイヤモンドセールス編集企画",
+      "published_year": "2003",
+      "number_of_page": "253"
     },
     {
-      "kind": "books#volume",
-      "id": "mRlbrgEACAAJ",
-      "etag": "PnvS7GfPXw4",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/mRlbrgEACAAJ",
-      "volumeInfo": {
-        "title": "入門React",
-        "subtitle": "コンポーネントベースのWebフロントエンド開発",
-        "authors": [
-          "フランキー バグナルディ",
-          "Jonathan Beebe",
-          "リチャードフェルドマン"
-        ],
-        "publishedDate": "2015-04",
-        "description": "Facebookが開発したJavaScriptライブラリ「React」の解説書。サンプルを用いて解説。",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "4873117194"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9784873117195"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 259,
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=mRlbrgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=mRlbrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=mRlbrgEACAAJ&dq=react&hl=&cd=33&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=mRlbrgEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%85%A5%E9%96%80React.html?hl=&id=mRlbrgEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=mRlbrgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Facebookが開発したJavaScriptライブラリ「React」の解説書。サンプルを用いて解説。"
-      }
+      "isbn_10": "4822229998",
+      "isbn_13": "9784822229993",
+      "title": "ステップアップのためのソフトウエアテスト実践ガイド 改訂版",
+      "author": "大西 建児",
+      "publisher": "日経BP",
+      "published_year": "2010",
+      "number_of_page": "272"
     },
     {
-      "kind": "books#volume",
-      "id": "e_l9zQEACAAJ",
-      "etag": "LajaKcq+Bao",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/e_l9zQEACAAJ",
-      "volumeInfo": {
-        "title": "React and React Native",
-        "subtitle": "A Complete Hands-on Guide to Modern Web and Mobile Development with React.js",
-        "authors": ["Adam Boduch", "Roy Derks"],
-        "publishedDate": "2020-04-29",
-        "description": "Discover and learn how to use React and React Native to build mobile, desktop and web apps. From composable and Native UIs through to device-specific APIs and offline development, this book has everything you need to create engaging and user-friendly React applications which run on all major platforms.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "1839211148"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9781839211140"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 526,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=e_l9zQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=e_l9zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=e_l9zQEACAAJ&dq=react&hl=&cd=34&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=e_l9zQEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/React_and_React_Native.html?hl=&id=e_l9zQEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=e_l9zQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "From composable and Native UIs through to device-specific APIs and offline development, this book has everything you need to create engaging and user-friendly React applications which run on all major platforms."
-      }
+      "isbn_10": "4873113113",
+      "isbn_13": "9784873113111",
+      "title": "スケーラブルWebサイト",
+      "author": "Cal Henderson",
+      "publisher": "オライリー・ジャパン",
+      "published_year": "2006",
+      "number_of_page": "352"
     },
     {
-      "kind": "books#volume",
-      "id": "XFiUzgEACAAJ",
-      "etag": "dUlSCBUv8Aw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/XFiUzgEACAAJ",
-      "volumeInfo": {
-        "title": "ECMAScript 6でReact.jsのアプリケーションを作ろう",
-        "publishedDate": "2017",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "OCLC:1258973262"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "printType": "BOOK",
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=XFiUzgEACAAJ&dq=react&hl=&cd=35&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=XFiUzgEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/ECMAScript_6%E3%81%A7React_js%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1.html?hl=&id=XFiUzgEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=XFiUzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
+      "isbn_10": "487311361X",
+      "isbn_13": "9784873113616",
+      "title": "ハイパフォーマンスWebサイト ―高速サイトを実現する14のルール",
+      "author": "Steve Souders",
+      "publisher": "オライリージャパン",
+      "published_year": "2008",
+      "number_of_page": "184"
     },
     {
-      "kind": "books#volume",
-      "id": "XCLhDwAAQBAJ",
-      "etag": "FE03mqpLI1w",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/XCLhDwAAQBAJ",
-      "volumeInfo": {
-        "title": "React and React Native",
-        "subtitle": "A complete hands-on guide to modern web and mobile development with React.js, 3rd Edition",
-        "authors": ["Adam Boduch", "Roy Derks"],
-        "publisher": "Packt Publishing Ltd",
-        "publishedDate": "2020-04-30",
-        "description": "Get up to speed with React, React Native, GraphQL and Apollo for building cross-platform native apps with the help of practical examples Key Features Covers the latest features of React such as Hooks, Suspense, NativeBase, and Apollo in this updated third edition Get to grips with the React architecture for writing easy-to-manage web and mobile applications Understand GraphQL and Apollo for building a scalable backend for your cross-platform apps Book Description React and React Native, Facebook’s innovative User Interface (UI) libraries, are designed to help you build robust cross-platform web and mobile applications. This updated third edition is improved and updated to cover the latest version of React. The book particularly focuses on the latest developments in the React ecosystem, such as modern Hook implementations, code splitting using lazy components and Suspense, user interface framework components using Material-UI, and Apollo. In terms of React Native, the book has been updated to version 0.62 and demonstrates how to apply native UI components for your existing mobile apps using NativeBase. You will begin by learning about the essential building blocks of React components. Next, you’ll progress to working with higher-level functionalities in application development, before putting this knowledge to use by developing user interface components for the web and for native platforms. In the concluding chapters, you’ll learn how to bring your application together with a robust data architecture. By the end of this book, you’ll be able to build React applications for the web and React Native applications for multiple mobile platforms. What you will learn Delve into the React architecture, component properties, state, and context Get to grips with React Hooks for handling functions and components Implement code splitting in React using lazy components and Suspense Build robust user interfaces for mobile and desktop apps using Material-UI Write shared components for Android and iOS mobile apps using React Native Simplify layout design for React Native apps using NativeBase Write GraphQL schemas to power web and mobile apps Implement web and mobile components that are driven by Apollo Who this book is for This book is for any JavaScript developer who wants to start learning how to use Facebook’s UI libraries, React and React Native, for mobile and web application development. Although no prior knowledge of React is needed, working knowledge of JavaScript programming will help you understand the concepts covered in the book more effectively.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781839212437"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1839212438"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 526,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.3.3.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=XCLhDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=XCLhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=XCLhDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=36&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=XCLhDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XCLhDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 2919,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 2627,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=XCLhDwAAQBAJ&rdid=book-XCLhDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 2919000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 2627000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=XCLhDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "From composable and Native UIs through to device-specific APIs and offline development, this book has everything you need to create engaging and user-friendly React applications which run on all major platforms."
-      }
+      "isbn_10": "4839951772",
+      "isbn_13": "9784839951771",
+      "title": "世界で闘うプロダクトマネジャーになるための本 ~トップIT企業のPMとして就職する方法~",
+      "author": "Gayle Laakmann McDowell",
+      "publisher": "マイナビ",
+      "published_year": "2014",
+      "number_of_page": "336"
     },
     {
-      "kind": "books#volume",
-      "id": "4OSDDwAAQBAJ",
-      "etag": "mnUMujbUh0Y",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/4OSDDwAAQBAJ",
-      "volumeInfo": {
-        "title": "エビアンワンダーREACT: 2",
-        "authors": ["おがきちか"],
-        "publisher": "一迅社",
-        "publishedDate": "2006-12-25",
-        "description": "悪魔に「不正な取り引き」のかどで裁判を申し立てたフレデリカ。天界の裁判にて、フレデリカはハウリィに真実の命を望む。二人に訪れる、避けがたい別離の予感――…。裁判の決着は、果たして…。魂を巡る姉弟の長い旅は、ついに決着す！",
-        "industryIdentifiers": [
-          {
-            "type": "OTHER",
-            "identifier": "PKEY:BT000020825100200201900209"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 152,
-        "printType": "BOOK",
-        "categories": ["Comics & Graphic Novels"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.2.2.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": true,
-          "containsImageBubbles": true,
-          "epubBubbleVersion": "b0695686eae0cc49_A",
-          "imageBubbleVersion": "b0695686eae0cc49_A"
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=4OSDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=4OSDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "ja",
-        "previewLink": "http://books.google.co.jp/books?id=4OSDDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=37&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=4OSDDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4OSDDwAAQBAJ",
-        "seriesInfo": {
-          "kind": "books#volume_series_info",
-          "bookDisplayNumber": "2",
-          "volumeSeries": [
-            {
-              "seriesId": "_-ElGwAAABDb-M",
-              "seriesBookType": "COLLECTED_EDITION",
-              "orderNumber": 2
-            }
-          ]
-        }
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 607,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 546,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=4OSDDwAAQBAJ&rdid=book-4OSDDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 607000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 546000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%A8%E3%83%93%E3%82%A2%E3%83%B3%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BCREACT_2-sample-epub.acsm?id=4OSDDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/%E3%82%A8%E3%83%93%E3%82%A2%E3%83%B3%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BCREACT_2-sample-pdf.acsm?id=4OSDDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=4OSDDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "悪魔に「不正な取り引き」のかどで裁判を申し立てたフレデリカ。天界の裁判にて、フレデリカはハウリィに真実の命を望む。二人に訪れる、避けがたい別離の予感――…。裁判 ..."
-      }
+      "isbn_10": "4798145629",
+      "isbn_13": "9784798145624",
+      "title": "Webセキュリティ担当者のための脆弱性診断スタートガイド 上野宣が教える情報漏えいを防ぐ技術",
+      "author": "上野 宣",
+      "publisher": "翔泳社",
+      "published_year": "2016",
+      "number_of_page": "320"
     },
     {
-      "kind": "books#volume",
-      "id": "IsJCDgAAQBAJ",
-      "etag": "KTcYpuQQjeQ",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/IsJCDgAAQBAJ",
-      "volumeInfo": {
-        "title": "Pro MERN Stack",
-        "subtitle": "Full Stack Web App Development with Mongo, Express, React, and Node",
-        "authors": ["Vasan Subramanian"],
-        "publisher": "Apress",
-        "publishedDate": "2017-03-02",
-        "description": "Assemble the complete stack required to build a modern web app using React: MongoDB (a NoSQL database) and Express (a framework for web application servers), which runs on Node (JavaScript on the server side), complement React very nicely. This book will also cover many other tools that go into building a complete web application: React Router, React-Bootstrap, Redux, Babel, and webpack. Though the primary focus of Pro MERN Stack is to equip you with all that is required to build a full-fledged web application, a large portion of the book will be devoted to React. The popular MEAN (MongoDB, Express, AngularJS, Node) stack introduced Single Page Apps (SPAs) and front-end Model-View-Controller (MVC) as new and efficient paradigms. But it has its shortcomings such as lack of support for SEO friendly server-side rendering and being too prescriptive by being a framework. Facebook's React is a technology that competes indirectly with AngularJS. It is not a full-fledged MVC framework. It is a JavaScript library for building user interfaces (in some sense the View part). Yet, it is possible to build a web app by replacing AngularJS with React – hence the term MERN stack. What You Will Learn Discover the details of React, the React Way, and how to get the maximum out of this library See the basics of MongoDB, Express, and Node, enough to build a web app Work with other tools complementary to React, including React-Bootstrap and React Router Use the tools required to build JavaScript based SPAs Tie all the components together to build a complete web app. Who This Book Is For Developers and architects who have prior experience in any web app stack other than the MERN stack will find the book useful to learn about this modern stack. Prior knowledge of JavaScript, HTML, and CSS is required.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781484226537"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1484226534"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 328,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.2.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=IsJCDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=IsJCDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=IsJCDgAAQBAJ&printsec=frontcover&dq=react&hl=&cd=38&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=IsJCDgAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=IsJCDgAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 5300,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 4770,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=IsJCDgAAQBAJ&rdid=book-IsJCDgAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 5300000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 4770000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Pro_MERN_Stack-sample-epub.acsm?id=IsJCDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.co.jp/books/download/Pro_MERN_Stack-sample-pdf.acsm?id=IsJCDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=IsJCDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This book will also cover many other tools that go into building a complete web application: React Router, React-Bootstrap, Redux, Babel, and webpack."
-      }
+      "isbn_10": "4894713772",
+      "isbn_13": "9784894713772",
+      "title": "ユースケース入門―ユーザマニュアルからプログラムを作る (Object Technology Series)",
+      "author": "ダグローゼンバーグ",
+      "publisher": "ピアソンエデュケーション",
+      "published_year": "",
+      "number_of_page": "137"
     },
     {
-      "kind": "books#volume",
-      "id": "anteDwAAQBAJ",
-      "etag": "Ve1vQT0TDjw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/anteDwAAQBAJ",
-      "volumeInfo": {
-        "title": "Full-Stack React Projects",
-        "subtitle": "Modern web development using React 16, Node, Express, and MongoDB",
-        "authors": ["Shama Hoque"],
-        "publisher": "Packt Publishing Ltd",
-        "publishedDate": "2018-05-29",
-        "description": "Unleash the power of MERN stack by building diverse web applications using React, Node.js, Express, and MongoDB Key Features Create dynamic web applications with the MERN stack Leverage the power of React in building interactive and complex user interfaces Unlock the potential of Node, Express, and MongoDB to build modern full-stack applications Book Description The benefits of using a full JavaScript stack for web development are undeniable, especially when robust and widely adopted technologies such as React, Node, and Express and are available. Combining the power of React with industry-tested, server-side technologies, such as Node, Express, and MongoDB, creates a diverse array of possibilities when developing real-world web applications. This book guides you through preparing the development environment for MERN stack-based web development, to creating a basic skeleton application and extending it to build four different web applications. These applications include a social media, an online marketplace, a media streaming, and a web-based game application with virtual reality features. While learning to set up the stack and developing a diverse range of applications with this book, you will grasp the inner workings of the MERN stack, extend its capabilities for complex features, and gain actionable knowledge of how to prepare MERN-based applications to meet the growing demands of real-world web applications. What you will learn Set up your development environment and develop a MERN application Implement user authentication and authorization using JSON Web Tokens Build a social media application by extending the basic MERN application Create an online marketplace application with shopping cart and Stripe payments Develop a media streaming application using MongoDB GridFS Implement server-side rendering with data to improve SEO Set up and use React 360 to develop user interfaces with VR capabilities Learn industry best practices to make MERN stack applications reliable and scalable Who this book is for Full-Stack React Web Development Projects is for JavaScript developers who have some experience with React, but no previous experience with full-stack development involving Node, Express, and MongoDB, and who want practical guidelines to start building different types of real-world web applications with this stack.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781788832946"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1788832949"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 470,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "2.2.3.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=anteDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=anteDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=anteDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=39&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=anteDwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=anteDwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 4209,
-          "currencyCode": "JPY"
-        },
-        "retailPrice": {
-          "amount": 3788,
-          "currencyCode": "JPY"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=anteDwAAQBAJ&rdid=book-anteDwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 4209000000,
-              "currencyCode": "JPY"
-            },
-            "retailPrice": {
-              "amountInMicros": 3788000000,
-              "currencyCode": "JPY"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=anteDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This book guides you through setting up for MERN-based web development to building social media, an online marketplace, media streaming, and VR-infused game ."
-      }
+      "isbn_10": "4774158968",
+      "isbn_13": "9784774158969",
+      "title": "データサイエンティスト養成読本 [ビッグデータ時代のビジネスを支えるデータ分析力が身につく! ] (Software Design plus)",
+      "author": "佐藤 洋行",
+      "publisher": "技術評論社",
+      "published_year": "2013",
+      "number_of_page": "152"
     },
     {
-      "kind": "books#volume",
-      "id": "yRsQwAEACAAJ",
-      "etag": "S3pZ5TLxVD8",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/yRsQwAEACAAJ",
-      "volumeInfo": {
-        "title": "React Native for Mobile Development",
-        "subtitle": "Harness the Power of React Native to Create Stunning iOS and Android Applications",
-        "authors": ["Akshat Paul", "Abhishek Nalwaya"],
-        "publisher": "Apress",
-        "publishedDate": "2019-08-11",
-        "description": "Develop native iOS and Android apps with ease using React Native. Learn by doing through an example-driven approach, and have a substantial running app at the end of each chapter. This second edition is fully updated to include ES7 (ECMAScript 7), the latest version of React Native (including Redux), and development on Android. You will start by setting up React Native and exploring the anatomy of React Native apps. You'll then move on to Redux data flow, how it differs from flux, and how you can include it in your React Native project to solve state management differently and efficiently. You will also learn how to boost your development by including popular packages developed by the React Native community that will help you write less; do more. Finally, you'll learn to how write test cases using Jest and submit your application to the App Store. React Native challenges the status quo of native iOS and Android development with revolutionary components, asynchronous execution, unique methods for touch handling, and much more. This book reveals the the path-breaking concepts of React.js and acquaints you with the React way of thinking so you can learn to create stunning user interfaces. What You'll Learn Build stunning iOS and Android applications Understand the Redux design pattern and use it in your project Interact with iOS and android device capabilities such as addressbook, camera, GPS and more with your apps Test and launch your application to the App Store Who This Book Is For Anyone with JavaScript experience who wants to build native mobile applications but dreads the thought of programming in Objective-C or Java. Developers who have experience with JavaScript but are new or not acquainted to React Native or ReactJS.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "1484244532"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9781484244531"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 235,
-        "printType": "BOOK",
-        "categories": ["Computers"],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=yRsQwAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=yRsQwAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.co.jp/books?id=yRsQwAEACAAJ&dq=react&hl=&cd=40&source=gbs_api",
-        "infoLink": "http://books.google.co.jp/books?id=yRsQwAEACAAJ&dq=react&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/React_Native_for_Mobile_Development.html?hl=&id=yRsQwAEACAAJ"
-      },
-      "saleInfo": {
-        "country": "JP",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "JP",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=yRsQwAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This book reveals the the path-breaking concepts of React.js and acquaints you with the React way of thinking so you can learn to create stunning user interfaces."
-      }
+      "isbn_10": "479813161X",
+      "isbn_13": "9784798131610",
+      "title": "実践ドメイン駆動設計 (Object Oriented SELECTION)",
+      "author": "ヴォーン・ヴァーノン",
+      "publisher": "翔泳社",
+      "published_year": "2015",
+      "number_of_page": "616"
+    },
+    {
+      "isbn_10": "4774192627",
+      "isbn_13": "9784774192628",
+      "title": "Amazon Web Services負荷試験入門―クラウドの性能の引き出し方がわかる (Software Design plusシリーズ)",
+      "author": "仲川 樽八",
+      "publisher": "技術評論社",
+      "published_year": "2017",
+      "number_of_page": "368"
+    },
+    {
+      "isbn_10": "4873119316",
+      "isbn_13": "9784873119311",
+      "title": "モノリスからマイクロサービスへ ―モノリスを進化させる実践移行ガイド",
+      "author": "Sam Newman",
+      "publisher": "オライリージャパン",
+      "published_year": "2020",
+      "number_of_page": "276"
+    },
+    {
+      "isbn_10": "4774148318",
+      "isbn_13": "9784774148311",
+      "title": "WEB+DB PRESS 総集編 [Vol.1～60]",
+      "author": "森田 創",
+      "publisher": "技術評論社",
+      "published_year": "2011",
+      "number_of_page": "100"
+    },
+    {
+      "isbn_10": "4873115574",
+      "isbn_13": "9784873115573",
+      "title": "インタフェースデザインの心理学 ―ウェブやアプリに新たな視点をもたらす100の指針",
+      "author": "Susan Weinschenk",
+      "publisher": "オライリージャパン",
+      "published_year": "2012",
+      "number_of_page": "288"
+    },
+    {
+      "isbn_10": "4844368591",
+      "isbn_13": "9784844368595",
+      "title": "UIデザイン みんなで考え、カイゼンする。",
+      "author": "栄前田 勝太郎",
+      "publisher": "エムディエヌコーポレーション",
+      "published_year": "2019",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4774162868",
+      "isbn_13": "9784774162867",
+      "title": "インフラデザインパターン ~安定稼動に導く127の設計方式 (WEB+DB PRESS plus)",
+      "author": "株式会社NTTデータ",
+      "publisher": "技術評論社",
+      "published_year": "2014",
+      "number_of_page": "232"
+    },
+    {
+      "isbn_10": "4774150533",
+      "isbn_13": "9784774150536",
+      "title": "MySQL Cluster構築・運用バイブル　～仕組みからわかる基礎と実践のノウハウ",
+      "author": "奥野 幹也",
+      "publisher": "技術評論社",
+      "published_year": "2012",
+      "number_of_page": "448"
+    },
+    {
+      "isbn_10": "4873114268",
+      "isbn_13": "9784873114262",
+      "title": "実践ハイパフォーマンスMySQL 第2版",
+      "author": "Baron Schwartz",
+      "publisher": "オライリージャパン",
+      "published_year": "2009",
+      "number_of_page": "736"
+    },
+    {
+      "isbn_10": "4774147117",
+      "isbn_13": "9784774147116",
+      "title": "オープンソース・ソフトウェアルータVyatta入門　――実践ルーティングから仮想化まで (Software Design plus)",
+      "author": "近藤邦昭",
+      "publisher": "技術評論社",
+      "published_year": "2011",
+      "number_of_page": "288"
+    },
+    {
+      "isbn_10": "4048702270",
+      "isbn_13": "9784048702270",
+      "title": "ハイパフォーマンスHTTPサーバ Nginx入門",
+      "author": "Clement Nedelcu",
+      "publisher": "アスキー・メディアワークス",
+      "published_year": "2011",
+      "number_of_page": "280"
+    },
+    {
+      "isbn_10": "1789956501",
+      "isbn_13": "9781789956504",
+      "title": "Elasticsearch 7.0 Cookbook: Over 100 recipes for fast, scalable, and reliable search for your enterprise, 4th Edition",
+      "author": "AlbertoParo",
+      "publisher": "Packt Publishing",
+      "published_year": "2019",
+      "number_of_page": "724"
+    },
+    {
+      "isbn_10": "462130366X",
+      "isbn_13": "9784621303665",
+      "title": "大規模スクラム Large-Scale Scrum(LeSS) アジャイルとスクラムを大規模に実装する方法",
+      "author": "木村 卓央",
+      "publisher": "丸善出版",
+      "published_year": "2019",
+      "number_of_page": "352"
+    },
+    {
+      "isbn_10": "4873114799",
+      "isbn_13": "9784873114798",
+      "title": "プログラマが知るべき97のこと",
+      "author": "夏目 大",
+      "publisher": "オライリージャパン",
+      "published_year": "2010",
+      "number_of_page": "276"
+    },
+    {
+      "isbn_10": "4906638015",
+      "isbn_13": "9784906638017",
+      "title": "7つの習慣-成功には原則があった!",
+      "author": "スティーブン・R. コヴィー",
+      "publisher": "キングベアー出版",
+      "published_year": "1996",
+      "number_of_page": "492"
+    },
+    {
+      "isbn_10": "4150504814",
+      "isbn_13": "9784150504816",
+      "title": "小さなチーム、大きな仕事――働き方の新スタンダード (ハヤカワ・ノンフィクション文庫)",
+      "author": "ジェイソン フリード",
+      "publisher": "早川書房",
+      "published_year": "2016",
+      "number_of_page": "263"
+    },
+    {
+      "isbn_10": "4502270504",
+      "isbn_13": "9784502270505",
+      "title": "実務詳解 内部統制の文書化マニュアル",
+      "author": "あずさ監査法人",
+      "publisher": "中央経済社",
+      "published_year": "2007",
+      "number_of_page": "481"
+    },
+    {
+      "isbn_10": "4873117801",
+      "isbn_13": "9784873117805",
+      "title": "デザインスプリント ―プロダクトを成功に導く短期集中実践ガイド",
+      "author": "Richard Banfield",
+      "publisher": "オライリージャパン",
+      "published_year": "2016",
+      "number_of_page": "276"
+    },
+    {
+      "isbn_10": "477419705X",
+      "isbn_13": "9784774197050",
+      "title": "Atomic Design ~堅牢で使いやすいUIを効率良く設計する",
+      "author": "五藤 佑典",
+      "publisher": "技術評論社",
+      "published_year": "2018",
+      "number_of_page": "320"
+    },
+    {
+      "isbn_10": "4798131989",
+      "isbn_13": "9784798131986",
+      "title": "海外SEO SEM ウェブマーケティングで世界を制す!",
+      "author": "山岸 ロハン",
+      "publisher": "翔泳社",
+      "published_year": "2013",
+      "number_of_page": "272"
+    },
+    {
+      "isbn_10": "432743079X",
+      "isbn_13": "9784327430795",
+      "title": "本気で鍛えるビジネス英語 TOEIC(R)テスト スピーキング/ライティング",
+      "author": "レアジョブ",
+      "publisher": "研究社",
+      "published_year": "2013",
+      "number_of_page": "296"
+    },
+    {
+      "isbn_10": "4774134325",
+      "isbn_13": "9784774134321",
+      "title": "Googleを支える技術 ￣巨大システムの内側の世界 (WEB+DB PRESSプラスシリーズ)",
+      "author": "西田 圭介",
+      "publisher": "技術評論社",
+      "published_year": "2008",
+      "number_of_page": "288"
+    },
+    {
+      "isbn_10": "4627847114",
+      "isbn_13": "9784627847118",
+      "title": "フリーソフトでつくる音声認識システム パターン認識・機械学習の初歩から対話システムまで",
+      "author": "荒木 雅弘",
+      "publisher": "森北出版",
+      "published_year": "2007",
+      "number_of_page": "248"
+    },
+    {
+      "isbn_10": "477419400X",
+      "isbn_13": "9784774194004",
+      "title": "超速! Webページ速度改善ガイド ── 使いやすさは「速さ」から始まる (WEB+DB PRESS plus)",
+      "author": "佐藤 歩",
+      "publisher": "技術評論社",
+      "published_year": "2017",
+      "number_of_page": "288"
+    },
+    {
+      "isbn_10": "487311621X",
+      "isbn_13": "9784873116211",
+      "title": "開眼! JavaScript ―言語仕様から学ぶJavaScriptの本質",
+      "author": "Cody Lindley",
+      "publisher": "オライリージャパン",
+      "published_year": "2013",
+      "number_of_page": "192"
+    },
+    {
+      "isbn_10": "4822236862",
+      "isbn_13": "9784822236861",
+      "title": "グーグルに学ぶディープラーニング",
+      "author": "日経ビッグデータ",
+      "publisher": "日経BP",
+      "published_year": "2017",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "4297124351",
+      "isbn_13": "9784297124359",
+      "title": "WEB+DB PRESS Vol.125",
+      "author": "水島 宏太",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297122871",
+      "isbn_13": "9784297122874",
+      "title": "WEB+DB PRESS Vol.124",
+      "author": "上田 裕己",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297122073",
+      "isbn_13": "9784297122072",
+      "title": "WEB+DB PRESS Vol.123",
+      "author": "後藤 ゆき",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297121190",
+      "isbn_13": "9784297121198",
+      "title": "WEB+DB PRESS Vol.122",
+      "author": "尾藤 正人",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297119609",
+      "isbn_13": "9784297119607",
+      "title": "WEB+DB PRESS Vol.121",
+      "author": "笹田 耕一",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297118114",
+      "isbn_13": "9784297118112",
+      "title": "WEB+DB PRESS Vol.120",
+      "author": "hikalium",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297116693",
+      "isbn_13": "9784297116699",
+      "title": "WEB+DB PRESS Vol.119",
+      "author": "平野 昌士",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "160"
+    },
+    {
+      "isbn_10": "4297115662",
+      "isbn_13": "9784297115661",
+      "title": "WEB+DB PRESS Vol.118",
+      "author": "大和田 純",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "176"
+    },
+    {
+      "isbn_10": "4297114666",
+      "isbn_13": "9784297114664",
+      "title": "WEB+DB PRESS Vol.117",
+      "author": "和田 剛",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "152"
+    },
+    {
+      "isbn_10": "4297113457",
+      "isbn_13": "9784297113452",
+      "title": "WEB+DB PRESS Vol.116",
+      "author": "前川 昌幸",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "152"
+    },
+    {
+      "isbn_10": "429711187X",
+      "isbn_13": "9784297111878",
+      "title": "WEB+DB PRESS Vol.115",
+      "author": "高橋 直大",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297111098",
+      "isbn_13": "9784297111090",
+      "title": "WEB+DB PRESS Vol.114",
+      "author": "?橋 祐真",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "160"
+    },
+    {
+      "isbn_10": "4297109050",
+      "isbn_13": "9784297109059",
+      "title": "WEB+DB PRESS Vol.113",
+      "author": "野田 奏",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "160"
+    },
+    {
+      "isbn_10": "4297107872",
+      "isbn_13": "9784297107871",
+      "title": "WEB+DB PRESS Vol.112",
+      "author": "樋口 剛",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297106574",
+      "isbn_13": "9784297106577",
+      "title": "WEB+DB PRESS Vol.111",
+      "author": "松田 明",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "160"
+    },
+    {
+      "isbn_10": "4297105330",
+      "isbn_13": "9784297105334",
+      "title": "WEB+DB PRESS Vol.110",
+      "author": "藤村 大介",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297104407",
+      "isbn_13": "9784297104405",
+      "title": "WEB+DB PRESS Vol.109",
+      "author": "佐藤 歩",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4774195545",
+      "isbn_13": "9784774195544",
+      "title": "WEB+DB PRESS Vol.103",
+      "author": "西村 宗晃",
+      "publisher": "技術評論社",
+      "published_year": "2018",
+      "number_of_page": "160"
+    },
+    {
+      "isbn_10": "4297127059",
+      "isbn_13": "9784297127053",
+      "title": "WEB+DB PRESS Vol.127",
+      "author": "佐野 健介",
+      "publisher": "技術評論社",
+      "published_year": "2022",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4297125390",
+      "isbn_13": "9784297125394",
+      "title": "WEB+DB PRESS Vol.126",
+      "author": "真壁 徹",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "B0932L4SNP",
+      "isbn_13": "4910058270613",
+      "title": "ソフトウェアデザイン 2021年6月号",
+      "author": "tsutsu",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "176"
+    },
+    {
+      "isbn_10": "B08Z2NTZ7X",
+      "isbn_13": "4910058270514",
+      "title": "ソフトウェアデザイン 2021年5月号",
+      "author": "村山 公保",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "192"
+    },
+    {
+      "isbn_10": "B08WZFPSBC",
+      "isbn_13": "4910058270415",
+      "title": "ソフトウェアデザイン 2021年4月号",
+      "author": "武内 覚",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "192"
+    },
+    {
+      "isbn_10": "B08T7D2LFR",
+      "isbn_13": "4910058270316",
+      "title": "ソフトウェアデザイン 2021年3月号",
+      "author": "谷本 心",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B08QS68VZS",
+      "isbn_13": "4910058270217",
+      "title": "ソフトウェアデザイン 2021年2月号",
+      "author": "伊奈 林太郎",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B08NWQZNC9",
+      "isbn_13": "4910058270118",
+      "title": "ソフトウェアデザイン 2021年1月号",
+      "author": "主森 理",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B08LFZZ47T",
+      "isbn_13": "4910058271207",
+      "title": "ソフトウェアデザイン 2020年12月号",
+      "author": "東口 和暉",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B08JB9PB65",
+      "isbn_13": "4910058271108",
+      "title": "ソフトウェアデザイン 2020年11月号",
+      "author": "栃沢 直樹",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "176"
+    },
+    {
+      "isbn_10": "B08FP2BPDX",
+      "isbn_13": "4910058271009",
+      "title": "ソフトウェアデザイン 2020年10月号",
+      "author": "driller",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B08D4P9DSC",
+      "isbn_13": "4910058270903",
+      "title": "ソフトウェアデザイン 2020年9月号",
+      "author": "中島 凜",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B08BDWYPDF",
+      "isbn_13": "4910058270804",
+      "title": "ソフトウェアデザイン 2020年8月号",
+      "author": "Λlisue",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B088N7XVML",
+      "isbn_13": "4910058270705",
+      "title": "ソフトウェアデザイン 2020年7月号",
+      "author": "ゆずたそ",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "176"
+    },
+    {
+      "isbn_10": "B0875YYD24",
+      "isbn_13": "4910058270606",
+      "title": "ソフトウェアデザイン 2020年6月号",
+      "author": "松本 健太郎",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "176"
+    },
+    {
+      "isbn_10": "B0863TWSWN",
+      "isbn_13": "4910058270507",
+      "title": "ソフトウェアデザイン 2020年5月号",
+      "author": "前橋 和弥",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B084QK9151",
+      "isbn_13": "4910058270408",
+      "title": "ソフトウェアデザイン 2020年4月号",
+      "author": "千葉 淳",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "192"
+    },
+    {
+      "isbn_10": "B083TM3VRZ",
+      "isbn_13": "4910058270309",
+      "title": "ソフトウェアデザイン 2020年3月号",
+      "author": "北山 晋吾",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "192"
+    },
+    {
+      "isbn_10": "B082JP8CR5",
+      "isbn_13": "4910058270200",
+      "title": "ソフトウェアデザイン 2020年2月号",
+      "author": "@driller",
+      "publisher": "技術評論社",
+      "published_year": "2020",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B07Z74Q3BD",
+      "isbn_13": "4910058271290",
+      "title": "ソフトウェアデザイン 2019年12月号",
+      "author": "吉田 真吾",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "200"
+    },
+    {
+      "isbn_10": "B07Y1WQNCW",
+      "isbn_13": "4910058271191",
+      "title": "ソフトウェアデザイン 2019年11月号",
+      "author": "本間 咲来",
+      "publisher": "技術評論社",
+      "published_year": "2019",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B00CGPKEQC",
+      "isbn_13": "4910058270842",
+      "title": "Software Design (ソフトウェア デザイン) 2014年 08月号 [雑誌]",
+      "author": "技術評論社",
+      "publisher": "技術評論社",
+      "published_year": "2014",
+      "number_of_page": ""
+    },
+    {
+      "isbn_10": "B09QK483FK",
+      "isbn_13": "4910058270323",
+      "title": "ソフトウェアデザイン 2022年3月号",
+      "author": "大竹 章裕",
+      "publisher": "技術評論社",
+      "published_year": "2022",
+      "number_of_page": "192"
+    },
+    {
+      "isbn_10": "B09NS3HK69",
+      "isbn_13": "4910058270224",
+      "title": "ソフトウェアデザイン 2022年2月号",
+      "author": "suin",
+      "publisher": "技術評論社",
+      "published_year": "2022",
+      "number_of_page": "192"
+    },
+    {
+      "isbn_10": "B09M552FPJ",
+      "isbn_13": "4910058270125",
+      "title": "ソフトウェアデザイン 2022年1月号",
+      "author": "野村 友規",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B09JVCF7H3",
+      "isbn_13": "4910058271214",
+      "title": "ソフトウェアデザイン 2021年12月号",
+      "author": "前佛 雅人",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B09GTBZHGK",
+      "isbn_13": "4910058271115",
+      "title": "ソフトウェアデザイン 2021年11月号",
+      "author": "農見 俊明",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B09CRLXD3S",
+      "isbn_13": "4910058271016",
+      "title": "ソフトウェアデザイン 2021年10月号",
+      "author": "堀内 康夫",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B099FZSLN1",
+      "isbn_13": "4910058270910",
+      "title": "ソフトウェアデザイン 2021年9月号",
+      "author": "怒田 晟也",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "B0971NZZT4",
+      "isbn_13": "4910058270811",
+      "title": "ソフトウェアデザイン 2021年8月号",
+      "author": "三木 聡一郎",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "176"
+    },
+    {
+      "isbn_10": "B095B3MZT9",
+      "isbn_13": "4910058270712",
+      "title": "ソフトウェアデザイン 2021年7月号",
+      "author": "齊藤 愼仁",
+      "publisher": "技術評論社",
+      "published_year": "2021",
+      "number_of_page": "184"
+    },
+    {
+      "isbn_10": "4873116384",
+      "isbn_13": "9784873116389",
+      "title": "実践ハイパフォーマンスMySQL 第3版",
+      "author": "Baron Schwartz",
+      "publisher": "オライリージャパン",
+      "published_year": "2013",
+      "number_of_page": "864"
+    },
+    {
+      "isbn_10": "480251039X",
+      "isbn_13": "9784802510394",
+      "title": "採用ブランディング-採用サイト・入社案内のコンテンツ&デザイン実例集",
+      "author": "",
+      "publisher": "ビー・エヌ・エヌ新社",
+      "published_year": "2016",
+      "number_of_page": "168"
+    },
+    {
+      "isbn_10": "4048930737",
+      "isbn_13": "9784048930734",
+      "title": "JavaScript Primer 迷わないための入門書",
+      "author": "azu",
+      "publisher": "KADOKAWA",
+      "published_year": "2020",
+      "number_of_page": "480"
+    },
+    {
+      "isbn_10": "4822298973",
+      "isbn_13": "9784822298975",
+      "title": "TypeScript実践マスター",
+      "author": "古賀慎一",
+      "publisher": "日経BP",
+      "published_year": "2017",
+      "number_of_page": "456"
+    },
+    {
+      "isbn_10": "4274067831",
+      "isbn_13": "9784274067839",
+      "title": "The R Tips―データ解析環境Rの基本技・グラフィックス活用集",
+      "author": "舟尾 暢男",
+      "publisher": "オーム社",
+      "published_year": "2009",
+      "number_of_page": "504"
+    },
+    {
+      "isbn_10": "479812947X",
+      "isbn_13": "9784798129471",
+      "title": "実践Node.js プログラミング (Programmer's SELECTION)",
+      "author": "Mike Cantelon",
+      "publisher": "翔泳社",
+      "published_year": "2014",
+      "number_of_page": "472"
+    },
+    {
+      "isbn_10": "4873115671",
+      "isbn_13": "9784873115672",
+      "title": "初めてのPerl 第6版",
+      "author": "Randal L. Schwartz",
+      "publisher": "オライリージャパン",
+      "published_year": "2012",
+      "number_of_page": "488"
+    },
+    {
+      "isbn_10": "477414813X",
+      "isbn_13": "9784774148137",
+      "title": "パーフェクトJavaScript (PERFECT SERIES 4)",
+      "author": "井上 誠一郎",
+      "publisher": "技術評論社",
+      "published_year": "2011",
+      "number_of_page": "544"
+    },
+    {
+      "isbn_10": "4774144371",
+      "isbn_13": "9784774144375",
+      "title": "パーフェクトPHP (PERFECT SERIES 3)",
+      "author": "小川 雄大",
+      "publisher": "技術評論社",
+      "published_year": "2010",
+      "number_of_page": "592"
+    },
+    {
+      "isbn_10": "4774150827",
+      "isbn_13": "9784774150826",
+      "title": "効率的なWebアプリケーションの作り方 ~PHPによるモダン開発入門",
+      "author": "小川 雄大",
+      "publisher": "技術評論社",
+      "published_year": "2012",
+      "number_of_page": "352"
+    },
+    {
+      "isbn_10": "1849515484",
+      "isbn_13": "9781849515481",
+      "title": "Yii 1.1 Application Development Cookbook",
+      "author": "AlexanderMakarov",
+      "publisher": "Packt Publishing",
+      "published_year": "2011",
+      "number_of_page": "392"
+    },
+    {
+      "isbn_10": "4894712288",
+      "isbn_13": "9784894712287",
+      "title": "リファクタリング―プログラムの体質改善テクニック (Object Technology Series)",
+      "author": "マーチン ファウラー",
+      "publisher": "ピアソンエデュケーション",
+      "published_year": "",
+      "number_of_page": "423"
+    },
+    {
+      "isbn_10": "0321125215",
+      "isbn_13": "9780321125217",
+      "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software (English Edition)",
+      "author": "EvansEric",
+      "publisher": "Addison-Wesley Professional",
+      "published_year": "2003",
+      "number_of_page": "563"
+    },
+    {
+      "isbn_10": "1849518726",
+      "isbn_13": "9781849518727",
+      "title": "Web Application Development with Yii and PHP",
+      "author": "JeffreyWinesett",
+      "publisher": "Packt Publishing",
+      "published_year": "2012",
+      "number_of_page": "332"
+    },
+    {
+      "isbn_10": "1847199585",
+      "isbn_13": "9781847199584",
+      "title": "Agile Web Application Development with Yii1.1 and PHP5",
+      "author": "JeffreyWinesett",
+      "publisher": "Packt Publishing",
+      "published_year": "2010",
+      "number_of_page": "368"
     }
   ]
 }

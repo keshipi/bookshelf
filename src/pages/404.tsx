@@ -1,6 +1,6 @@
 import Redct from 'react';
-import { Link } from 'react-router-dom';
-import { Text, Link as LinkNavi, VStack } from '@chakra-ui/react';
+import { Link as LinkRoute } from 'react-router-dom';
+import { Text, Link, VStack } from '@chakra-ui/react';
 
 export const Whoops404 = () => {
   return (
@@ -14,8 +14,8 @@ export const Whoops404 = () => {
       <Text fontSize="lg" color="gray">
         The page you’re looking for doesn’t exist.
       </Text>
-      <Link to="/books">
-        <LinkNavi color='gray'>TOPへもどる</LinkNavi>
+      <Link as={LinkRoute} to="/books" color="gray.500">
+        TOPへもどる
       </Link>
     </VStack>
   );

@@ -4,10 +4,10 @@ import { Box, Image, Text } from '@chakra-ui/react';
 
 export const BookItem = (props: Book) => {
   return (
-    <Link to={`/books/${props.id}`} className="group">
+    <Link to={`/books/${props.isbn_10}`} className="group">
       <Box>
-        <Image src={props.image} alt={props.name} />
-        <Text fontSize='md'>{props.name}</Text>
+        <Image src={props.image} alt={props.title} />
+        <Text fontSize='md'>{props.title}</Text>
       </Box>
     </Link>
   );

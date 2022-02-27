@@ -5,7 +5,6 @@ import { HStack, Input, Button } from '@chakra-ui/react';
 type Props = {
   text: string;
   onSearch: (search: string) => void;
-  isLoading: boolean;
 };
 
 export const SearchBox = (props: Props) => {
@@ -37,7 +36,6 @@ export const SearchBox = (props: Props) => {
       <Button
         colorScheme="teal"
         onClick={handleClick}
-        isLoading={props.isLoading}
       >
         Search
       </Button>

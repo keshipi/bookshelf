@@ -18,16 +18,18 @@ export const BookDetail = () => {
   const [isSearching, setIsSearching] = useState(true);
 
   useEffect(() => {
-    fetch(`https://www.googleapis.com/books/v1/volumes/${id}`)
+    fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${id}`)
       .then((res) => res.json())
       .then((res) => {
-        setBook({
-          id: res.id,
-          name: res.volumeInfo.title,
-          authors: res.volumeInfo.authors || [],
-          image: res.volumeInfo.imageLinks.thumbnail,
-          description: res.volumeInfo.description,
-        });
+        if (res.totalItems > 0) {
+          setBook({
+            id: res.items[0].id,
+            name: res.items[0].volumeInfo.title,
+            authors: res.items[0].volumeInfo.authors || [],
+            image: `https://images-na.ssl-images-amazon.com/images/P/${id}.09.LZZZZZZZ.jpg`,
+            description: res.items[0].volumeInfo.description,
+          });
+        }
       })
       .catch((error) => {
         console.log(error);
@@ -53,7 +55,7 @@ export const BookDetail = () => {
         <Flex p="8">
           <Box w="30%">
             <Center>
-              <Image src={book.image} alt={book.name} w="50%" />
+              <Image src={book.image} alt={book.name} w="75%" />
             </Center>
           </Box>
           <Box w="70%">
