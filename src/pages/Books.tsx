@@ -1,5 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { createSearchParams, useSearchParams } from 'react-router-dom';
+import React from 'react';
+import {
+  useQueryParams,
+  StringParam,
+  NumberParam,
+  withDefault,
+} from 'use-query-params';
 import { Box, Center } from '@chakra-ui/react';
 import { BookList } from './../components/BookList';
 import { Pagination } from './../components/Pagination';
@@ -31,40 +36,38 @@ const books: Book[] = data.books.map(
 
 export const Books = () => {
   const pagePerItems = 40;
-  const [searchParams, setSearchParams] = useSearchParams(
-    createSearchParams({ query: '', page: '1' })
-  );
+  const [searchParams, setSearchParams] = useQueryParams({
+    query: withDefault(StringParam, ''),
+    page: withDefault(NumberParam, 1),
+  });
 
   const handleSearch = (query: string) => {
-    const newSearchParam = { query, page: '1' };
-    setSearchParams(createSearchParams(newSearchParam));
+    setSearchParams({ query: query }, 'push');
   };
 
   const handlePageClick = (selectedPage: number) => {
-    const newSearchParam = {
-      query: searchParams.get('query') || '',
-      page: selectedPage.toString(),
-    };
-    setSearchParams(createSearchParams(newSearchParam));
+    setSearchParams({ page: selectedPage }, 'push');
   };
 
   const filterdBooks = books.filter((book) =>
-    book.title.toLowerCase().match(new RegExp(searchParams.get('query')?.toLowerCase() || ''))
+    book.title
+      .toLowerCase()
+      .match(new RegExp(searchParams.query.toLowerCase() || ''))
   );
 
   return (
     <>
       <Box w="100%" p={4}>
         <SearchBox
-          text={searchParams.get('query') || ''}
+          text={searchParams.query}
           onSearch={handleSearch}
         ></SearchBox>
       </Box>
       <Box w="100%">
         <BookList
           items={filterdBooks.slice(
-            (Number(searchParams.get('page')) - 1) * pagePerItems,
-            Number(searchParams.get('page')) * pagePerItems
+            (searchParams.page - 1) * pagePerItems,
+            searchParams.page * pagePerItems
           )}
         ></BookList>
       </Box>
@@ -75,7 +78,7 @@ export const Books = () => {
               totalCount={filterdBooks.length}
               pageSize={pagePerItems}
               onClick={handlePageClick}
-              currentPage={Number(searchParams.get('page'))}
+              currentPage={searchParams.page}
             ></Pagination>
           </Center>
         </Box>
