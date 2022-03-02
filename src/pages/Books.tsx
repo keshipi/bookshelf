@@ -44,11 +44,11 @@ export const Books = () => {
   });
 
   const handleSearch = (query: string) => {
-    setSearchParams({ query: query }, 'push');
+    setSearchParams({ query: query });
   };
 
   const handlePageClick = (selectedPage: number) => {
-    setSearchParams({ page: selectedPage }, 'push');
+    setSearchParams({ page: selectedPage });
   };
 
   const filterdBooks = books.filter((book) =>
@@ -56,6 +56,13 @@ export const Books = () => {
       .toLowerCase()
       .match(new RegExp(searchParams.query.toLowerCase() || ''))
   );
+
+  const slicedBooks = (books: Book[]) => {
+    return books.slice(
+      (searchParams.page - 1) * pagePerItems,
+      searchParams.page * pagePerItems
+    );
+  };
 
   return (
     <>
@@ -67,10 +74,7 @@ export const Books = () => {
       </Box>
       <Box w="100%">
         <BookList
-          items={filterdBooks.slice(
-            (searchParams.page - 1) * pagePerItems,
-            searchParams.page * pagePerItems
-          )}
+          items={slicedBooks(filterdBooks)}
         ></BookList>
       </Box>
       {filterdBooks.length ? (
