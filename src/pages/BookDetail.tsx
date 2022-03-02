@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
+
 import {
   Box,
   Center,
@@ -10,7 +11,8 @@ import {
   Heading,
   Stack,
 } from '@chakra-ui/react';
-import { Whoops404 } from './404';
+
+import { Whoops404 } from '@/pages/404';
 
 export const BookDetail = () => {
   const { id } = useParams();

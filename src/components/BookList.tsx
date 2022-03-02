@@ -1,6 +1,8 @@
 import React from 'react';
-import { BookItem } from './BookItem';
+
 import { Grid } from '@chakra-ui/react';
+
+import { BookItem } from '@/components/BookItem';
 type Props = {
   items: Book[];
 };

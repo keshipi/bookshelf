@@ -1,15 +1,17 @@
 import React from 'react';
+
+import { Box, Center } from '@chakra-ui/react';
 import {
   useQueryParams,
   StringParam,
   NumberParam,
   withDefault,
 } from 'use-query-params';
-import { Box, Center } from '@chakra-ui/react';
-import { BookList } from './../components/BookList';
-import { Pagination } from './../components/Pagination';
-import { SearchBox } from './../components/SearchBox';
-import data from '../data.json';
+
+import { BookList } from '@/components/BookList';
+import { Pagination } from '@/components/Pagination';
+import { SearchBox } from '@/components/SearchBox';
+import data from '@/data.json';
 
 const books: Book[] = data.books.map(
   ({

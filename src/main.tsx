@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, useNavigate, useLocation } from 'react-router-dom';
+
 import { Location } from 'history';
 import { QueryParamProvider } from 'use-query-params';
 
-import './index.css';
-import App from './App';
+import '@/index.css';
+import App from '@/App';
 
 const RouteAdapter: React.FC = ({ children }) => {
   const navigate = useNavigate();

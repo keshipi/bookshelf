@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link as LinkRoute } from 'react-router-dom';
+
 import { Text, Link, VStack } from '@chakra-ui/react';
 
 export const Whoops404 = () => {

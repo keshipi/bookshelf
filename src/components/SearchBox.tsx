@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { HStack, Input, Button } from '@chakra-ui/react';
 
+
 type Props = {
   text: string;
   onSearch: (search: string) => void;

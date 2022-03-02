@@ -1,9 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Books, BookDetail, Whoops404 } from './pages';
 
-import { ChakraProvider } from '@chakra-ui/react';
-import { Container } from '@chakra-ui/react';
+import { ChakraProvider , Container } from '@chakra-ui/react';
+
+import { Books, BookDetail, Whoops404 } from '@/pages';
+
 
 export default function App() {
   return (
