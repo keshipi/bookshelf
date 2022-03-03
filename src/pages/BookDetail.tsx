@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 import {
   Box,
@@ -62,7 +63,15 @@ export const BookDetail = () => {
           </Box>
           <Box w="70%">
             <Stack spacing={6}>
-              <Text color="gray.500">{book.authors.join(', ')}</Text>
+              <Box color="gray.500">
+                {book.authors.map((author: string) => {
+                  return (
+                    <Link key={author} to={`/books?query=author:${author}`}>
+                      <Text as="span" mr={2}>{author}</Text>
+                    </Link>
+                  );
+                })}
+              </Box>
               <Heading as="h1">{book.name}</Heading>
               <Text
                 dangerouslySetInnerHTML={{ __html: book.description }}

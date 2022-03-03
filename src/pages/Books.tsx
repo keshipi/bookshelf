@@ -1,6 +1,20 @@
 import React from 'react';
 
-import { Box, Center } from '@chakra-ui/react';
+import { QuestionOutlineIcon } from '@chakra-ui/icons';
+import {
+  Box,
+  Center,
+  Code,
+  HStack,
+  IconButton,
+  Popover,
+  PopoverArrow,
+  PopoverBody,
+  PopoverCloseButton,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger
+} from '@chakra-ui/react';
 import {
   useQueryParams,
   StringParam,
@@ -51,11 +65,30 @@ export const Books = () => {
     setSearchParams({ page: selectedPage });
   };
 
-  const filterdBooks = books.filter((book) =>
-    book.title
+  const filterdBooks = books.filter((book) => {
+    if (!searchParams.query.includes(':')) {
+      return book.title
+        .replace(/\s+/g, '')
+        .toLowerCase()
+        .match(
+          new RegExp(searchParams.query.replace(/\s+/g, '').toLowerCase())
+        );
+    }
+
+    const [field, search] = searchParams.query.split(':');
+    const trimedLower = search.replace(/\s+/g, '').toLowerCase();
+    if (field === 'author' || field === 'publisher') {
+      return book[field]
+        .replace(/\s+/g, '')
+        .toLowerCase()
+        .match(new RegExp(trimedLower));
+    }
+
+    return book.title
+      .replace(/\s+/g, '')
       .toLowerCase()
-      .match(new RegExp(searchParams.query.toLowerCase() || ''))
-  );
+      .match(new RegExp(trimedLower));
+  });
 
   const slicedBooks = (books: Book[]) => {
     return books.slice(
@@ -67,15 +100,45 @@ export const Books = () => {
   return (
     <>
       <Box w="100%" p={4}>
-        <SearchBox
-          text={searchParams.query}
-          onSearch={handleSearch}
-        ></SearchBox>
+        <HStack>
+          <SearchBox
+            text={searchParams.query}
+            onSearch={handleSearch}
+          ></SearchBox>
+
+          <Popover>
+            <PopoverTrigger>
+              <IconButton
+                color="teal"
+                aria-label="Question"
+                icon={<QuestionOutlineIcon />}
+                backgroundColor="transparent"
+                _hover={{ backgroundColor: 'transparent' }}
+                _focus={{ backgroundColor: 'transparent' }}
+              />
+            </PopoverTrigger>
+            <PopoverContent>
+              <PopoverHeader pt={4} fontWeight="bold" border="0">
+                検索オプション
+              </PopoverHeader>
+              <PopoverArrow />
+              <PopoverCloseButton />
+              <PopoverBody>
+                <Box mb={1}>
+                  <Code>author:</Code>{' '}
+                  を検索ワードの前に追加して著者名で検索する
+                </Box>
+                <Box>
+                  <Code>publisher:</Code>{' '}
+                  を検索ワードの前に追加して出版社名で検索する
+                </Box>
+              </PopoverBody>
+            </PopoverContent>
+          </Popover>
+        </HStack>
       </Box>
       <Box w="100%">
-        <BookList
-          items={slicedBooks(filterdBooks)}
-        ></BookList>
+        <BookList items={slicedBooks(filterdBooks)}></BookList>
       </Box>
       {filterdBooks.length ? (
         <Box w="100%" p={4}>

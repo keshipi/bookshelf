@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { HStack, Input, Button } from '@chakra-ui/react';
+import { Input, Button } from '@chakra-ui/react';
 
 
 type Props = {
@@ -27,7 +27,7 @@ export const SearchBox = (props: Props) => {
   };
 
   return (
-    <HStack>
+    <>
       <Input
         placeholder="What are you interested in?"
         value={search}
@@ -40,6 +40,6 @@ export const SearchBox = (props: Props) => {
       >
         Search
       </Button>
-    </HStack>
+    </>
   );
 };
