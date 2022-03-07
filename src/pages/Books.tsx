@@ -13,7 +13,7 @@ import {
   PopoverCloseButton,
   PopoverContent,
   PopoverHeader,
-  PopoverTrigger
+  PopoverTrigger,
 } from '@chakra-ui/react';
 import {
   useQueryParams,
@@ -29,22 +29,22 @@ import data from '@/data.json';
 
 const books: Book[] = data.books.map(
   ({
+    isbn,
     isbn_10,
-    isbn_13,
     title,
-    author,
+    authors,
     publisher,
-    published_year,
-    number_of_page,
+    date_of_publish,
+    descriptions,
   }): Book => {
     return {
+      isbn,
       isbn_10,
-      isbn_13,
       title,
-      author,
+      authors,
       publisher,
-      published_year,
-      number_of_page,
+      date_of_publish,
+      descriptions,
       image: `https://images-na.ssl-images-amazon.com/images/P/${isbn_10}.09.LZZZZZZZ.jpg`,
     };
   }
@@ -65,29 +65,51 @@ export const Books = () => {
     setSearchParams({ page: selectedPage });
   };
 
+  const isIncluded = (haystack: string, needle: string) => {
+    return haystack
+      .replace(/\s+/g, '')
+      .toLowerCase()
+      .includes(needle.replace(/\s+/g, '').toLowerCase());
+  };
+
+  const isIncludedInArray = (haystack: string[], needle: string) => {
+    return (
+      haystack.filter((h) => {
+        return isIncluded(h, needle);
+      }).length > 0
+    );
+  };
+
   const filterdBooks = books.filter((book) => {
     if (!searchParams.query.includes(':')) {
-      return book.title
-        .replace(/\s+/g, '')
-        .toLowerCase()
-        .match(
-          new RegExp(searchParams.query.replace(/\s+/g, '').toLowerCase())
-        );
+      const isIncludedInTitle = isIncluded(book.title, searchParams.query);
+      const isIncludedInDescriptioin = isIncludedInArray(
+        book.descriptions,
+        searchParams.query
+      );
+      return isIncludedInTitle || isIncludedInDescriptioin;
     }
 
     const [field, search] = searchParams.query.split(':');
-    const trimedLower = search.replace(/\s+/g, '').toLowerCase();
-    if (field === 'author' || field === 'publisher') {
-      return book[field]
-        .replace(/\s+/g, '')
-        .toLowerCase()
-        .match(new RegExp(trimedLower));
+    switch (field) {
+      case 'title':
+        return isIncluded(book.title, search);
+      case 'description':
+        return isIncludedInArray(book.descriptions, search);
+      case 'publisher':
+        return isIncluded(book.publisher, search);
+      case 'author': {
+        return isIncludedInArray(book.authors, search);
+      }
+      default: {
+        const isIncludedInTitle = isIncluded(book.title, search);
+        const isIncludedInDescriptioin = isIncludedInArray(
+          book.descriptions,
+          search
+        );
+        return isIncludedInTitle || isIncludedInDescriptioin;
+      }
     }
-
-    return book.title
-      .replace(/\s+/g, '')
-      .toLowerCase()
-      .match(new RegExp(trimedLower));
   });
 
   const slicedBooks = (books: Book[]) => {
@@ -124,6 +146,14 @@ export const Books = () => {
               <PopoverArrow />
               <PopoverCloseButton />
               <PopoverBody>
+                <Box mb={1}>
+                  <Code>title:</Code>{' '}
+                  を検索ワードの前に追加してタイトルを検索する
+                </Box>
+                <Box mb={1}>
+                  <Code>description:</Code>{' '}
+                  を検索ワードの前に追加して説明を検索する
+                </Box>
                 <Box mb={1}>
                   <Code>author:</Code>{' '}
                   を検索ワードの前に追加して著者名で検索する

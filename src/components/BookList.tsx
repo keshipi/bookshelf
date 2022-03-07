@@ -10,8 +10,8 @@ type Props = {
 export const BookList = (props: Props) => {
   return (
     <Grid templateColumns="repeat(8, 1fr)" gap={6}>
-      {props.items.map((book: Book, index: number) => {
-        return <BookItem key={book.isbn_10 + '_' + index} {...book}></BookItem>;
+      {props.items.map((book: Book) => {
+        return <BookItem key={book.isbn} {...book}></BookItem>;
       })}
     </Grid>
   );
