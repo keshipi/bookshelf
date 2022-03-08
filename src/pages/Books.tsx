@@ -45,7 +45,6 @@ const books: Book[] = data.books.map(
       publisher,
       date_of_publish,
       descriptions,
-      image: `https://images-na.ssl-images-amazon.com/images/P/${isbn_10}.09.LZZZZZZZ.jpg`,
     };
   }
 );

@@ -1,0 +1,13 @@
+# 書籍データの作り方
+
+## Google書籍 API
+
+```
+curl "https://www.googleapis.com/books/v1/volumes?q=isbn:9781934356555" | jq '.items[] | { isbn: .volumeInfo.industryIdentifiers[1].identifier, isbn_10: .volumeInfo.industryIdentifiers[0].identifier, title: (.volumeInfo.title + ": " + .volumeInfo.subtitle), publisher: "", date_of_publish: .volumeInfo.publishedDate, authors: .volumeInfo.authors, description: .volumeInfo.description}'
+```
+
+## openBD API
+
+```
+curl "https://api.openbd.jp/v1/get?isbn=9784797320657" | jq '.[0] | { isbn: .summary.isbn, isbn_10:"", title: .summary.title, publisher: .summary.publisher, date_of_publish: .summary.pubdate, authors: [.onix.DescriptiveDetail.Contributor[].PersonName.content], description: [.onix.CollateralDetail.TextContent[]?.Text] }'
+```

@@ -6,5 +6,4 @@ declare type Book = {
   publisher: string
   date_of_publish: string
   descriptions: string[]
-  image: string
 }

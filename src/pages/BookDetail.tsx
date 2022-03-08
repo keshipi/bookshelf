@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router';
 import { Link, useLocation } from 'react-router-dom';
 
 import {
@@ -11,6 +12,7 @@ import {
   Stack,
 } from '@chakra-ui/react';
 
+import data from '@/data.json';
 import { Whoops404 } from '@/pages/404';
 
 interface BookDetailState {
@@ -18,10 +20,12 @@ interface BookDetailState {
 }
 
 export const BookDetail = () => {
+  const { id } = useParams();
   const location = useLocation();
-  console.log(location.state);
-  const state = location.state as BookDetailState;
-  const { book } = state;
+  const state = (location.state as BookDetailState) || {
+    book: data.books.find((book) => book.isbn === id) || null,
+  };
+  const book = state.book;
 
   return (
     <>
@@ -29,7 +33,11 @@ export const BookDetail = () => {
         <Flex p="8">
           <Box w="30%">
             <Center>
-              <Image src={book.image} alt={book.title} w="75%" />
+              <Image
+                src={`https://images-na.ssl-images-amazon.com/images/P/${book.isbn_10}.09.LZZZZZZZ.jpg`}
+                alt={book.title}
+                w="75%"
+              />
             </Center>
           </Box>
           <Box w="70%">
